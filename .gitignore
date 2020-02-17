@@ -11,6 +11,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+.next/
 
 # testing
 /coverage
