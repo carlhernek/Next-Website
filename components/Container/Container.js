@@ -18,12 +18,9 @@ const Container = props => (
         font-size: 2vh;
       }
 
-      * {
-        border: solid 3px transparent;
-      }
-
-      :focus {
-        border: solid 3px black;
+      #__next {
+        margin: 0;
+        padding: 0;
       }
 
       body {
@@ -71,12 +68,19 @@ const Container = props => (
       }
 
       .container {
-        padding: 0.5rem;
         display: flex;
         flex-direction: row;
         height: 30rem;
         width: 1024px;
         background-color: white;
+      }
+
+      .container * {
+        border: solid 3px transparent;
+      }
+
+      :focus {
+        border: solid 3px black;
       }
 
       @media only screen and (max-width: 1024px) {
