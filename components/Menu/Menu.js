@@ -19,29 +19,42 @@ const Menu = () => {
           flex-direction: column;
           width: auto;
           height: 100%;
-          background-color: #2e2e2e;
         }
 
         a {
-          padding: 0.5em;
-          color: rgb(243, 243, 243);
-          font-size: 1em;
-          transition: 0.35s;
+          color: white;
+          background-color: black;
+          padding: 0.25rem;
+          font-size: 1rem;
+          transition: color 0.35s;
+        }
+
+        a:nth-child(n + 2) {
+          margin-top: 0.5rem;
+        }
+
+        a:focus {
+          background-color: white;
+          color: black;
         }
 
         @media only screen and (max-width: 1024px) {
           a {
-            padding: 1.5em 0.5em;
-            margin: 0.125em 0.25em;
-            background-color: rgb(25, 25, 25);
+            padding: 1.5rem 0.5rem;
+            margin: 0.125rem 0.5rem;
+            background-color: black;
+            color: white;
+          }
+
+          a:nth-child (1) {
+            margin-top: 1rem;
           }
         }
 
         a:hover {
-          background-color: rgb(243, 243, 243);
-          color: #2e2e2e;
-          text-decoration: none;
-          transition: 0.35s;
+          background-color: white;
+          color: black;
+          transition: color 0.35s;
         }
       `}</style>
     </nav>

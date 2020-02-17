@@ -18,14 +18,29 @@ const Container = props => (
         font-size: 2vh;
       }
 
+      * {
+        border: solid 3px transparent;
+      }
+
+      :focus {
+        border: solid 3px black;
+      }
+
       body {
         margin: 0;
         padding: 0;
-        background-color: rgb(243, 243, 243);
+        overflow: hidden;
       }
 
-      h1 {
-        font-family: "Arial";
+      h1,
+      h2,
+      h3 {
+        font-family: "Raleway";
+        display: table;
+      }
+
+      p {
+        font-family: "Raleway";
       }
 
       #__next {
@@ -36,18 +51,38 @@ const Container = props => (
         align-items: center;
       }
 
+      .page {
+        margin-left: 1rem;
+        padding-right: 1.5rem;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: black white;
+      }
+      .page::-webkit-scrollbar {
+        width: 8px;
+      }
+      .page::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .page::-webkit-scrollbar-thumb {
+        background-color: black;
+        border: none;
+      }
+
       .container {
+        padding: 0.5rem;
         display: flex;
-        height: 30em;
+        flex-direction: row;
+        height: 30rem;
         width: 1024px;
-        background-color: magenta;
+        background-color: white;
       }
 
       @media only screen and (max-width: 1024px) {
         .container {
           height: 100vh;
           width: 100vw;
-          background-color: green;
         }
       }
     `}</style>
