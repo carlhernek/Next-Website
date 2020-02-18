@@ -1,4 +1,5 @@
 import Container from "../components/Container/Container";
+import Pagestyle from "../components/Pagestyle/Pagestyle";
 
 export default function Design() {
   return (
@@ -91,26 +92,7 @@ export default function Design() {
           bread bushwick +1 pickled. Aesthetic leggings consectetur
           dreamcatcher, microdosing small batch paleo beard vice.
         </p>
-        <style jsx>
-          {`
-            *:nth-child(1) {
-              margin: 0;
-              background-color: black;
-              color: white;
-              padding: 0.5rem 0.75rem;
-            }
-
-            *:nth-child(n + 1) {
-              padding-left: 0.75rem;
-            }
-
-            @media only screen and (max-width: 1024px) {
-              *:nth-child(1) {
-                margin: 1rem 0;
-              }
-            }
-          `}
-        </style>
+        <Pagestyle />
       </div>
     </Container>
   );

@@ -1,16 +1,13 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
 
-export default function Index() {
+export default function Resume() {
   return (
     <Container>
       <div className="page" tabIndex="0">
-        <h1>Carl Hernek</h1>
-        <h2>
-          Industrial Designer BFA / <br />
-          Aspiring Frontend Developer
-        </h2>
-        <h3>Welcome</h3>
+        <h1>Resumé</h1>
+        <h2>Resumé</h2>
+        <h3>Resumé</h3>
         <p>
           Banh mi air plant tempor pork belly health goth, hexagon PBR&B artisan
           mollit sint pour-over. Vape hammock sint shaman gastropub tacos. Tacos

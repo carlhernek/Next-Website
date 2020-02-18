@@ -36,8 +36,16 @@ const Container = props => (
         display: table;
       }
 
-      p {
+      p,
+      a {
         font-family: "Raleway";
+      }
+
+      ul {
+        font-family: "Raleway";
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
       }
 
       #__next {
@@ -77,6 +85,10 @@ const Container = props => (
 
       .container * {
         border: solid 3px transparent;
+      }
+
+      .no-border {
+        border: none;
       }
 
       :focus {
