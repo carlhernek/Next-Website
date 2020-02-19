@@ -14,7 +14,6 @@ export default function Pagestyle() {
         p,
         ul,
         a {
-          margin-left: 0.75rem;
         }
 
         li {
@@ -26,9 +25,24 @@ export default function Pagestyle() {
           color: black;
         }
 
+        .project-card {
+        }
+
+        .project-img {
+          object-fit: cover;
+          height: 10rem;
+          width: 10rem;
+          margin: 0 0.75rem 0.75rem 0;
+        }
+
         @media only screen and (max-width: 1024px) {
           h1:first-of-type {
             margin: 1rem 0;
+          }
+
+          @media only screen and (max-width: 1024px) and (orientation: portrait) {
+            .project-card {
+            }
           }
         }
       `}

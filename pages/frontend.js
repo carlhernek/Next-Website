@@ -22,17 +22,14 @@ export default function Frontend() {
         <h2>Projects</h2>
         <Projects
           projectTitle="My First Portfolio Website"
-          projectLink={[
-            ["Github", "https://github.com/carlhernek/Website"],
-            ["Title2", "Link2"],
-            ["Title3", "Link3"]
-          ]}
+          projectLink={[["Github", "https://github.com/carlhernek/Website"]]}
           projectDate="11/2019"
           projectDesc="The very first version of my porfolio made 100% from scratch."
           projectTech={["HTML", "CSS", "Javascript"]}
         />
         <Projects
           projectTitle="Pseudorandom"
+          projectMedia="https://live.staticflickr.com/4112/5170590074_714d36db83_b.jpg"
           projectLink={[
             ["Github", "https://github.com/carlhernek/Pan-Zoom-effects"],
             ["Live Website", "https://pan-zoom-effects-css-js.netlify.com/"]
