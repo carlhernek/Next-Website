@@ -101,6 +101,12 @@ const Container = props => (
           width: 100vw;
         }
       }
+
+      @media only screen and (max-width: 1024px) and (orientation: landscape) {
+        :root {
+          font-size: 2vw;
+        }
+      }
     `}</style>
   </div>
 );

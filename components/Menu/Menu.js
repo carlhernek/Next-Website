@@ -43,14 +43,18 @@ const Menu = () => {
 
         @media only screen and (max-width: 1024px) {
           nav a {
-            padding: 1.5rem 0.5rem;
+            padding: 0.5rem;
             margin: 0.125rem 0.5rem;
-            background-color: black;
-            color: white;
           }
 
           nav a:nth-child (1) {
             margin-top: 1rem;
+          }
+        }
+
+        @media only screen and (orientation: portrait) {
+          nav a {
+            padding: 1.5rem 0.5rem;
           }
         }
 
