@@ -31,9 +31,15 @@ const Container = props => (
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         font-family: "Raleway";
         display: table;
+      }
+
+      h4 {
+        margin-bottom: 0.45rem;
+        color: blue;
       }
 
       p,
@@ -89,6 +95,10 @@ const Container = props => (
 
       .no-border {
         border: none;
+      }
+
+      .no-margin-top {
+        margin-top: 0;
       }
 
       :focus {

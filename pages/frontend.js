@@ -1,6 +1,6 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
-import Projects from "../components/Projects/Projects";
+import FrontendProjects from "../components/Projects/FrontendProjects";
 
 export default function Frontend() {
   return (
@@ -20,16 +20,27 @@ export default function Frontend() {
           knowledge in regards to us as humans and technology.
         </p>
         <h2>Projects</h2>
-        <Projects
+        <FrontendProjects
           projectTitle="My First Portfolio Website"
           projectLink={[["Github", "https://github.com/carlhernek/Website"]]}
           projectDate="11/2019"
           projectDesc="The very first version of my porfolio made 100% from scratch."
           projectTech={["HTML", "CSS", "Javascript"]}
         />
-        <Projects
+        <FrontendProjects
           projectTitle="Pseudorandom"
-          projectMedia="https://live.staticflickr.com/4112/5170590074_714d36db83_b.jpg"
+          projectMedia={[
+            [
+              "img",
+              "https://live.staticflickr.com/4112/5170590074_714d36db83_b.jpg",
+              "picture of doggo"
+            ],
+            [
+              "img",
+              "https://live.staticflickr.com/4112/5170590074_714d36db83_b.jpg",
+              "picture of doggo"
+            ]
+          ]}
           projectLink={[
             ["Github", "https://github.com/carlhernek/Pan-Zoom-effects"],
             ["Live Website", "https://pan-zoom-effects-css-js.netlify.com/"]
