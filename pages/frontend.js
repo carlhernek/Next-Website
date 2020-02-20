@@ -35,11 +35,7 @@ export default function Frontend() {
               "https://live.staticflickr.com/4112/5170590074_714d36db83_b.jpg",
               "picture of doggo"
             ],
-            [
-              "img",
-              "https://live.staticflickr.com/4112/5170590074_714d36db83_b.jpg",
-              "picture of doggo"
-            ]
+            ["vid", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "mp4"]
           ]}
           projectLink={[
             ["Github", "https://github.com/carlhernek/Pan-Zoom-effects"],

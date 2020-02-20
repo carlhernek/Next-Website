@@ -36,6 +36,49 @@ const media = param => {
           ></img>
         );
       }
+
+      if (item[0] === "vid") {
+        switch (item[2]) {
+          case "mp4":
+            mediaContainer.push(
+              <video autoPlay muted>
+                <source
+                  key={index}
+                  src={item[1]}
+                  type="video/mp4"
+                  className="project-vid no-border"
+                />
+              </video>
+            );
+            break;
+          case "webm":
+            mediaContainer.push(
+              <video autoPlay muted>
+                <source
+                  key={index}
+                  src={item[1]}
+                  type="video/webm"
+                  className="project-vid no-border"
+                />
+              </video>
+            );
+            break;
+          case "ogg":
+            mediaContainer.push(
+              <video autoPlay muted>
+                <source
+                  key={index}
+                  src={item[1]}
+                  type="video/ogg"
+                  className="project-vid no-border"
+                />
+              </video>
+            );
+            break;
+          default:
+            break;
+        }
+      }
     });
     return (
       <div className="media-container">
@@ -48,7 +91,7 @@ const media = param => {
 
 export default function FrontendProjects({
   projectTitle, // Takes "string"
-  projectMedia, // Takes [["type","src","alt"],["type","src","alt"]]
+  projectMedia, // Takes [(image)["element","src","alt"],(video)["element","src","codec"]]
   projectLink, // Takes [["Link title, url"],["Link title, url"]]
   projectDate, // Takes "string"
   projectDesc, // Takes "string"
