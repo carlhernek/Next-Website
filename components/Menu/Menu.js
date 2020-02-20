@@ -52,16 +52,22 @@ const Menu = () => {
           }
         }
 
+        nav a:hover {
+          background-color: white;
+          color: black;
+          transition: color 0.35s;
+        }
+
         @media only screen and (orientation: portrait) {
           nav a {
             padding: 1.5rem 0.5rem;
           }
         }
 
-        nav a:hover {
-          background-color: white;
-          color: black;
-          transition: color 0.35s;
+        @media only screen and (max-width: 2014px) {
+          nav a:nth-child (1) {
+            margin-top: 0.5rem;
+          }
         }
       `}</style>
     </nav>

@@ -32,10 +32,39 @@ export default function Frontend() {
           projectMedia={[
             [
               "img",
-              "https://live.staticflickr.com/4112/5170590074_714d36db83_b.jpg",
-              "picture of doggo"
+              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
+              "picture of logi remote"
             ],
-            ["vid", "../", "mp4"]
+            [
+              "img",
+              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
+              "picture of logi remote"
+            ],
+            [
+              "img",
+              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
+              "picture of logi remote"
+            ],
+            [
+              "img",
+              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
+              "picture of logi remote"
+            ],
+            [
+              "img",
+              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
+              "picture of logi remote"
+            ],
+            [
+              "img",
+              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
+              "picture of logi remote"
+            ],
+            [
+              "vid",
+              "https://res.cloudinary.com/carlhernek/video/upload/v1582198323/Website/vid/figma_jzryxd.mp4",
+              "mp4"
+            ]
           ]}
           projectLink={[
             ["Github", "https://github.com/carlhernek/Pan-Zoom-effects"],

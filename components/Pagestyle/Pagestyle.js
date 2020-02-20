@@ -31,12 +31,27 @@ export default function Pagestyle() {
         }
 
         .project-vid {
-          height: 13rem;
+          width: 26rem;
+          margin: 0 0.75rem 0.75rem 0;
+        }
+
+        @media only screen and (orientation: portrait) {
+          .project-img {
+            object-fit: contain;
+            width: 100%;
+            height: auto;
+            margin: 0 0 0.75rem 0;
+          }
+
+          .project-vid {
+            width: 100%;
+            margin: 0 0.75rem 0;
+          }
         }
 
         @media only screen and (max-width: 1024px) {
           h1:first-of-type {
-            margin: 1rem 0;
+            margin: 0.5rem 0;
           }
         }
       `}

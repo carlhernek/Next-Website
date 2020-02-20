@@ -41,37 +41,37 @@ const media = param => {
         switch (item[2]) {
           case "mp4":
             mediaContainer.push(
-              <video autoPlay muted>
-                <source
-                  key={index}
-                  src={item[1]}
-                  type="video/mp4"
-                  className="project-vid no-border"
-                />
+              <video
+                className="project-vid no-border"
+                autoPlay="true"
+                muted="true"
+                loop="true"
+              >
+                <source key={index} src={item[1]} type="video/mp4" />
               </video>
             );
             break;
           case "webm":
             mediaContainer.push(
-              <video autoPlay muted>
-                <source
-                  key={index}
-                  src={item[1]}
-                  type="video/webm"
-                  className="project-vid no-border"
-                />
+              <video
+                className="project-vid no-border"
+                autoPlay="true"
+                muted="true"
+                loop="true"
+              >
+                <source key={index} src={item[1]} type="video/webm" />
               </video>
             );
             break;
           case "ogg":
             mediaContainer.push(
-              <video autoPlay muted>
-                <source
-                  key={index}
-                  src={item[1]}
-                  type="video/ogg"
-                  className="project-vid no-border"
-                />
+              <video
+                className="project-vid no-border"
+                autoPlay="true"
+                muted="true"
+                loop="true"
+              >
+                <source key={index} src={item[1]} type="video/ogg" />
               </video>
             );
             break;
