@@ -3,7 +3,7 @@ export default function Pagestyle() {
     <style jsx>
       {`
         h1:first-of-type {
-          margin: 0;
+          margin: 0.5rem 0;
           background-color: black;
           color: white;
           padding: 0.5rem 0.75rem;
@@ -45,8 +45,14 @@ export default function Pagestyle() {
 
           .project-vid {
             width: 100%;
-            margin: 0 0.75rem 0;
+            min-width: 100%;
+            margin: 0 0 0.75rem 0;
           }
+        }
+
+        .media-container {
+          display: flex;
+          flex-wrap: wrap;
         }
 
         @media only screen and (max-width: 1024px) {

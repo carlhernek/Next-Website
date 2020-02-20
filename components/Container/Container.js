@@ -70,12 +70,15 @@ const Container = props => (
         scrollbar-width: thin;
         scrollbar-color: black white;
       }
+
       .page::-webkit-scrollbar {
         width: 8px;
       }
+
       .page::-webkit-scrollbar-track {
         background: transparent;
       }
+
       .page::-webkit-scrollbar-thumb {
         background-color: black;
         border: none;
@@ -106,6 +109,10 @@ const Container = props => (
       }
 
       @media only screen and (max-width: 1024px) {
+        .page {
+          margin-left: 0;
+        }
+
         .container {
           height: 100vh;
           width: 100vw;

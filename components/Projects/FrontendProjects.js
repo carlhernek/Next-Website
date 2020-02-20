@@ -95,7 +95,7 @@ export default function FrontendProjects({
   projectLink, // Takes [["Link title, url"],["Link title, url"]]
   projectDate, // Takes "string"
   projectDesc, // Takes "string"
-  projectTech
+  projectTech // Takes ["string","string"]
 }) {
   return (
     <div className="project-card no-border">
