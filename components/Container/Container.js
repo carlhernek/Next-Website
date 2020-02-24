@@ -125,6 +125,7 @@ const Container = props => (
         flex-direction: row;
         height: 70vh;
         width: 1024px;
+        overflow: hidden;
       }
 
       .container * {
@@ -153,6 +154,7 @@ const Container = props => (
         .container {
           height: 100vh;
           width: 100vw;
+          overflow: hidden;
         }
       }
 

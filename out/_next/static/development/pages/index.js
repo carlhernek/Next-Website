@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\design.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Container/Container.js":
 /*!*******************************************!*\
@@ -5041,21 +5041,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js!./":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js!./":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/design", function() {
-      var mod = __webpack_require__(/*! ./pages/design.js */ "./pages/design.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/design.js */ "./pages/design.js", function() {
-          if(!next.router.components["/design"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/design.js */ "./pages/design.js")
-          next.router.update("/design", updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -11402,26 +11402,26 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/design.js":
-/*!*************************!*\
-  !*** ./pages/design.js ***!
-  \*************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Design; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Container_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Container/Container */ "./components/Container/Container.js");
 /* harmony import */ var _components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Pagestyle/Pagestyle */ "./components/Pagestyle/Pagestyle.js");
-var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\design.js";
+var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-function Design() {
+function Index() {
   return __jsx(_components_Container_Container__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
@@ -11442,58 +11442,64 @@ function Design() {
       lineNumber: 8
     },
     __self: this
-  }, "Design"), __jsx("h2", {
+  }, "Carl Hernek"), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "Design"), __jsx("h3", {
+  }, "Industrial Designer BFA / ", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Design"), __jsx("p", {
+  }), "Aspiring Frontend Developer"), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
+    },
+    __self: this
+  }, "Welcome"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, "Banh mi air plant tempor pork belly health goth, hexagon PBR&B artisan mollit sint pour-over. Vape hammock sint shaman gastropub tacos. Tacos et food truck, deserunt typewriter brooklyn austin next level live-edge. Flexitarian crucifix kombucha, locavore whatever blue bottle proident woke. Four loko velit PBR&B irure. Incididunt you probably haven't heard of them vegan jean shorts lyft deep v consequat, sriracha listicle shabby chic pabst dolore leggings. Kale chips twee sartorial 90's bitters tote bag salvia. Ullamco squid bespoke lo-fi pok pok do dolore polaroid keytar."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, "Laboris tilde wayfarers hot chicken actually tumblr. Marfa green juice dreamcatcher flexitarian aliqua vaporware dolore tote bag banjo. Eiusmod meditation narwhal, gochujang yr try-hard slow-carb hell of 8-bit. Hexagon ad lyft, pickled typewriter ut biodiesel chicharrones edison bulb swag yr trust fund aesthetic. Meggings typewriter ullamco four loko bespoke vegan marfa, tbh shoreditch coloring book wolf raclette tousled street art. Gentrify brooklyn you probably haven't heard of them jianbing gluten-free portland. Single-origin coffee locavore aliquip meh, 3 wolf moon succulents edison bulb tumblr beard duis venmo brunch offal minim. Aute street art health goth, enim jean shorts fingerstache nostrud. Irure crucifix man bun tousled sint."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 38
     },
     __self: this
   }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 68
     },
     __self: this
   }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 83
     },
     __self: this
   }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 98
     },
     __self: this
   })));
@@ -11501,14 +11507,14 @@ function Design() {
 
 /***/ }),
 
-/***/ 3:
-/*!*********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js ***!
-  \*********************************************************************************************************************************************************************/
+/***/ 1:
+/*!**************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -11524,5 +11530,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=design.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=index.js.map

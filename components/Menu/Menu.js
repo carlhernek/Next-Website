@@ -67,7 +67,7 @@ const Menu = () => {
             position: absolute;
             left: -3.5rem;
             transform: rotate(-90deg);
-            padding-bottom: 1rem;
+            padding: 0.25rem 0.25rem 1rem 0.25rem;
           }
 
           nav a {
