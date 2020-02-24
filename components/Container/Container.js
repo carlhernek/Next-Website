@@ -78,6 +78,7 @@ const Container = props => (
         margin-bottom: 0.45rem;
       }
 
+      button,
       p,
       a {
         font-family: "Raleway";

@@ -40,7 +40,7 @@ const Menu = () => {
         <a>Resumé</a>
       </Link>
       <button className="tab" onClick={() => menuToggle(toggle)}>
-        <a>Menu</a>
+        Menu
       </button>
       <style jsx>
         {`
@@ -65,9 +65,10 @@ const Menu = () => {
             background-color: black;
             color: white;
             position: absolute;
-            left: -3.5rem;
+            left: -3rem;
             transform: rotate(-90deg);
-            padding: 0.25rem 0.25rem 1rem 0.25rem;
+            font-size: 1rem;
+            padding: 0.5rem 0.5rem 1.1rem 0.5rem;
           }
 
           nav a {
