@@ -1,5 +1,6 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
+import Footer from "../components/Footer/Footer";
 
 export default function Design() {
   return (
@@ -93,6 +94,7 @@ export default function Design() {
           dreamcatcher, microdosing small batch paleo beard vice.
         </p>
         <Pagestyle />
+        <Footer />
       </div>
     </Container>
   );

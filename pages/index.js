@@ -1,5 +1,6 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
+import Footer from "../components/Footer/Footer";
 
 export default function Index() {
   return (
@@ -96,6 +97,7 @@ export default function Index() {
           dreamcatcher, microdosing small batch paleo beard vice.
         </p>
         <Pagestyle />
+        <Footer />
       </div>
     </Container>
   );

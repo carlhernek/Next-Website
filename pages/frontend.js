@@ -1,6 +1,7 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
 import FrontendProjects from "../components/Projects/FrontendProjects";
+import Footer from "../components/Footer/Footer";
 
 export default function Frontend() {
   return (
@@ -75,6 +76,7 @@ export default function Frontend() {
           projectTech={["HTML", "CSS", "Javascript"]}
         />
         <Pagestyle />
+        <Footer />
       </div>
     </Container>
   );

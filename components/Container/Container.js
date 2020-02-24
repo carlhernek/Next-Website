@@ -100,8 +100,8 @@ const Container = props => (
       }
 
       .page {
-        margin-left: 1rem;
-        padding: 0 1.5rem 20vh 0;
+        margin-left 1rem;
+        padding: 0 1.5rem 0 0;
         overflow-y: scroll;
         overflow-x: hidden;
         scrollbar-width: thin;
