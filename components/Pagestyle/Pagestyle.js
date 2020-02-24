@@ -35,6 +35,11 @@ export default function Pagestyle() {
           margin: 0 0.75rem 0.75rem 0;
         }
 
+        .media-container {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
         @media only screen and (orientation: portrait) {
           .project-img {
             object-fit: contain;
@@ -48,11 +53,11 @@ export default function Pagestyle() {
             min-width: 100%;
             margin: 0 0 0.75rem 0;
           }
-        }
 
-        .media-container {
-          display: flex;
-          flex-wrap: wrap;
+          .media-container {
+            flex-direction: column;
+            flex-wrap: nowrap;
+          }
         }
 
         @media only screen and (max-width: 1024px) {

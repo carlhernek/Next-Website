@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\frontend.js"],{
 
 /***/ "./components/Container/Container.js":
 /*!*******************************************!*\
@@ -243,6 +243,260 @@ function Pagestyle() {
     },
     __self: this
   }, "\n        h1:first-of-type {\n          margin: 0.5rem 0;\n          background-color: black;\n          color: white;\n          padding: 0.5rem 0.75rem;\n        }\n\n        li {\n          font-size: 0.75rem;\n        }\n\n        a {\n          font-size: 0.75rem;\n          color: black;\n        }\n\n        .project-card {\n          border-left: solid 7px black;\n          padding-left: 0.5rem;\n        }\n\n        .project-img {\n          object-fit: cover;\n          height: 13rem;\n          width: 13rem;\n          margin: 0 0.75rem 0.75rem 0;\n        }\n\n        .project-vid {\n          width: 26rem;\n          margin: 0 0.75rem 0.75rem 0;\n        }\n\n        .media-container {\n          display: flex;\n          flex-wrap: wrap;\n        }\n\n        @media only screen and (orientation: portrait) {\n          .project-img {\n            object-fit: contain;\n            width: 100%;\n            height: auto;\n            margin: 0 0 0.75rem 0;\n          }\n\n          .project-vid {\n            width: 100%;\n            min-width: 100%;\n            margin: 0 0 0.75rem 0;\n          }\n\n          .media-container {\n            flex-direction: column;\n            flex-wrap: nowrap;\n          }\n        }\n\n        @media only screen and (max-width: 1024px) {\n          h1:first-of-type {\n            margin: 0.5rem 0;\n          }\n        }\n      ");
+}
+
+/***/ }),
+
+/***/ "./components/Projects/FrontendProjects.js":
+/*!*************************************************!*\
+  !*** ./components/Projects/FrontendProjects.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FrontendProjects; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\components\\Projects\\FrontendProjects.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var tech = function tech(param) {
+  var techList = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      return techList.push(__jsx("li", {
+        key: index,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 4
+        },
+        __self: this
+      }, item));
+    });
+    return techList;
+  }
+};
+
+var links = function links(param) {
+  var linkList = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      return linkList.push(__jsx("a", {
+        key: index,
+        href: item[1],
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, item[0], __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      })));
+    });
+    return linkList;
+  }
+};
+
+var media = function media(param) {
+  var mediaContainer = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      if (item[0] === "img") {
+        mediaContainer.push(__jsx("img", {
+          key: index,
+          src: item[1],
+          alt: item[2],
+          className: "project-img no-border",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31
+          },
+          __self: this
+        }));
+      }
+
+      if (item[0] === "vid") {
+        switch (item[2]) {
+          case "mp4":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 44
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/mp4",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 50
+              },
+              __self: this
+            })));
+            break;
+
+          case "webm":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 56
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/webm",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 62
+              },
+              __self: this
+            })));
+            break;
+
+          case "ogg":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 68
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/ogg",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 74
+              },
+              __self: this
+            })));
+            break;
+
+          default:
+            break;
+        }
+      }
+    });
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    }, __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85
+      },
+      __self: this
+    }, "Media"), __jsx("div", {
+      className: "media-container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 86
+      },
+      __self: this
+    }, mediaContainer));
+  }
+};
+
+function FrontendProjects(_ref) {
+  var projectTitle = _ref.projectTitle,
+      projectMedia = _ref.projectMedia,
+      projectLink = _ref.projectLink,
+      projectDate = _ref.projectDate,
+      projectDesc = _ref.projectDesc,
+      projectTech = _ref.projectTech;
+  return __jsx("div", {
+    className: "project-card no-border",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, projectTitle), __jsx("div", {
+    className: "no-border",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "no-border",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Links"), links(projectLink), __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, "Project Description"), __jsx("p", {
+    className: "no-margin-top",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, projectDate, __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  }), projectDesc), __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, "Made With"), __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }, tech(projectTech))), media(projectMedia)));
 }
 
 /***/ }),
@@ -5034,21 +5288,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js!./":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js!./":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/frontend", function() {
+      var mod = __webpack_require__(/*! ./pages/frontend.js */ "./pages/frontend.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/frontend.js */ "./pages/frontend.js", function() {
+          if(!next.router.components["/frontend"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/frontend.js */ "./pages/frontend.js")
+          next.router.update("/frontend", updatedPage)
         })
       }
       return mod
@@ -11395,30 +11649,32 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/frontend.js":
+/*!***************************!*\
+  !*** ./pages/frontend.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Frontend; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Container_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Container/Container */ "./components/Container/Container.js");
 /* harmony import */ var _components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Pagestyle/Pagestyle */ "./components/Pagestyle/Pagestyle.js");
-var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\index.js";
+/* harmony import */ var _components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Projects/FrontendProjects */ "./components/Projects/FrontendProjects.js");
+var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\frontend.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-function Index() {
+
+function Frontend() {
   return __jsx(_components_Container_Container__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
@@ -11426,73 +11682,60 @@ function Index() {
     tabIndex: "0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Carl Hernek"), __jsx("h2", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "Industrial Designer BFA / ", __jsx("br", {
+  }, "Frontend"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }), "Aspiring Frontend Developer"), __jsx("h3", {
+  }, "This is the latest chapter of my life. I started the Frontend Developer program at Hyper Island in august 2019 and have since been hard at work learning the ways of web development, user experience and agile working environments."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     },
     __self: this
-  }, "Welcome"), __jsx("p", {
+  }, "I started this journey because I found myself becoming gradually more interested in the technology side of things in my work. Almost everything today has a digital component to it and requires specific knowledge in regards to us as humans and technology."), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 22
     },
     __self: this
-  }, "Banh mi air plant tempor pork belly health goth, hexagon PBR&B artisan mollit sint pour-over. Vape hammock sint shaman gastropub tacos. Tacos et food truck, deserunt typewriter brooklyn austin next level live-edge. Flexitarian crucifix kombucha, locavore whatever blue bottle proident woke. Four loko velit PBR&B irure. Incididunt you probably haven't heard of them vegan jean shorts lyft deep v consequat, sriracha listicle shabby chic pabst dolore leggings. Kale chips twee sartorial 90's bitters tote bag salvia. Ullamco squid bespoke lo-fi pok pok do dolore polaroid keytar."), __jsx("p", {
+  }, "Projects"), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "My First Portfolio Website",
+    projectLink: [["Github", "https://github.com/carlhernek/Website"]],
+    projectDate: "11/2019",
+    projectDesc: "The very first version of my porfolio made 100% from scratch.",
+    projectTech: ["HTML", "CSS", "Javascript"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 23
     },
     __self: this
-  }, "Laboris tilde wayfarers hot chicken actually tumblr. Marfa green juice dreamcatcher flexitarian aliqua vaporware dolore tote bag banjo. Eiusmod meditation narwhal, gochujang yr try-hard slow-carb hell of 8-bit. Hexagon ad lyft, pickled typewriter ut biodiesel chicharrones edison bulb swag yr trust fund aesthetic. Meggings typewriter ullamco four loko bespoke vegan marfa, tbh shoreditch coloring book wolf raclette tousled street art. Gentrify brooklyn you probably haven't heard of them jianbing gluten-free portland. Single-origin coffee locavore aliquip meh, 3 wolf moon succulents edison bulb tumblr beard duis venmo brunch offal minim. Aute street art health goth, enim jean shorts fingerstache nostrud. Irure crucifix man bun tousled sint."), __jsx("p", {
+  }), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "Pseudorandom",
+    projectMedia: [["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["vid", "https://res.cloudinary.com/carlhernek/video/upload/v1582198323/Website/vid/figma_jzryxd.mp4", "mp4"]],
+    projectLink: [["Github", "https://github.com/carlhernek/Pan-Zoom-effects"], ["Live Website", "https://pan-zoom-effects-css-js.netlify.com/"]],
+    projectDate: "11/2019",
+    projectDesc: "The very first version of my porfolio made 100% from scratch.",
+    projectTech: ["HTML", "CSS", "Javascript"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 30
     },
     __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
+  }), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83
-    },
-    __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 77
     },
     __self: this
   })));
@@ -11500,14 +11743,14 @@ function Index() {
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js ***!
-  \**************************************************************************************************************************************************************/
+/***/ 2:
+/*!*************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js!./");
 
 
 /***/ }),
@@ -11523,5 +11766,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=frontend.js.map

@@ -63,9 +63,6 @@ const Container = props => (
             rgba(10, 10, 10, 0.06) 100%
           ),
           linear-gradient(307deg, rgb(255, 255, 255), rgb(255, 255, 255));
-
-        overflow: hidden;
-        background-repeat: no-repeat;
       }
 
       h1,
@@ -103,7 +100,7 @@ const Container = props => (
 
       .page {
         margin-left: 1rem;
-        padding-right: 1.5rem;
+        padding: 0 1.5rem 20vh 0;
         overflow-y: scroll;
         overflow-x: hidden;
         scrollbar-width: thin;
