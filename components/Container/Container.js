@@ -28,6 +28,7 @@ const Container = props => (
         width: 100vw;
         margin: 0;
         padding: 0;
+        overflow: hidden;
 
         background: radial-gradient(
             circle at 69% 86%,
