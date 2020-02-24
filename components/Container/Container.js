@@ -26,7 +26,44 @@ const Container = props => (
       body {
         margin: 0;
         padding: 0;
+
+        background: radial-gradient(
+            circle at 69% 86%,
+            rgba(165, 165, 165, 0.06) 0%,
+            rgba(165, 165, 165, 0.06) 25%,
+            rgba(193, 193, 193, 0.06) 25%,
+            rgba(193, 193, 193, 0.06) 50%,
+            rgba(221, 221, 221, 0.06) 50%,
+            rgba(221, 221, 221, 0.06) 75%,
+            rgba(249, 249, 249, 0.06) 75%,
+            rgba(249, 249, 249, 0.06) 100%
+          ),
+          radial-gradient(
+            circle at 49% 76%,
+            rgba(129, 129, 129, 0.06) 0%,
+            rgba(129, 129, 129, 0.06) 25%,
+            rgba(164, 164, 164, 0.06) 25%,
+            rgba(164, 164, 164, 0.06) 50%,
+            rgba(200, 200, 200, 0.06) 50%,
+            rgba(200, 200, 200, 0.06) 75%,
+            rgba(235, 235, 235, 0.06) 75%,
+            rgba(235, 235, 235, 0.06) 100%
+          ),
+          radial-gradient(
+            circle at 22% 64%,
+            rgba(173, 173, 173, 0.06) 0%,
+            rgba(173, 173, 173, 0.06) 25%,
+            rgba(119, 119, 119, 0.06) 25%,
+            rgba(119, 119, 119, 0.06) 50%,
+            rgba(64, 64, 64, 0.06) 50%,
+            rgba(64, 64, 64, 0.06) 75%,
+            rgba(10, 10, 10, 0.06) 75%,
+            rgba(10, 10, 10, 0.06) 100%
+          ),
+          linear-gradient(307deg, rgb(255, 255, 255), rgb(255, 255, 255));
+
         overflow: hidden;
+        background-repeat: no-repeat;
       }
 
       h1,
@@ -39,7 +76,6 @@ const Container = props => (
 
       h4 {
         margin-bottom: 0.45rem;
-        color: blue;
       }
 
       p,
@@ -68,7 +104,7 @@ const Container = props => (
         overflow-y: scroll;
         overflow-x: hidden;
         scrollbar-width: thin;
-        scrollbar-color: black white;
+        scrollbar-color: black transparent;
       }
 
       .page::-webkit-scrollbar {
@@ -87,9 +123,8 @@ const Container = props => (
       .container {
         display: flex;
         flex-direction: row;
-        height: 30rem;
+        height: 70vh;
         width: 1024px;
-        background-color: white;
       }
 
       .container * {
@@ -110,7 +145,9 @@ const Container = props => (
 
       @media only screen and (max-width: 1024px) {
         .page {
-          margin-left: 0;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          margin: 0;
         }
 
         .container {

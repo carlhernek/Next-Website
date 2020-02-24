@@ -81,9 +81,9 @@ const media = param => {
       }
     });
     return (
-      <div className="media-container">
+      <div>
         <h4>Media</h4>
-        {mediaContainer}
+        <div className="media-container">{mediaContainer}</div>
       </div>
     );
   }
