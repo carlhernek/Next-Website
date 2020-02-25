@@ -4,23 +4,47 @@ export default function Pagestyle() {
       {`
         h1:first-of-type {
           margin: 0.5rem 0;
-          background-color: black;
-          color: white;
+          background-color: var(--font-color);
+          color: var(--font-color-inverted);
           padding: 0.5rem 0.75rem;
         }
 
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        h3 {
+          font-size: 1.4rem;
+        }
+
+        h4 {
+          font-size: 1.3rem;
+        }
+
+        p {
+          font-size: 1.15rem;
+        }
+
+        ul {
+          display: table;
+          margin-right: 1rem;
+        }
+
         li {
-          font-size: 0.75rem;
+          font-size: 1.15rem;
+          display: table;
         }
 
         a {
-          font-size: 0.75rem;
-          color: black;
+          font-size: 1.15rem;
+          color: var(--link-color);
         }
 
         .project-card {
-          border-left: solid 7px black;
-          padding-left: 0.5rem;
+          border-left: solid 7px var(--font-color);
+          padding: 0.125rem 0.125rem 0.125rem 0.5rem;
+          margin: 0.5rem 0;
+          background-color: var(--font-color-opacity);
         }
 
         .project-img {
@@ -40,6 +64,10 @@ export default function Pagestyle() {
           flex-wrap: wrap;
         }
 
+        .column-card {
+          display: flex;
+        }
+
         @media only screen and (orientation: portrait) {
           .project-img {
             object-fit: contain;
@@ -57,6 +85,10 @@ export default function Pagestyle() {
           .media-container {
             flex-direction: column;
             flex-wrap: nowrap;
+          }
+
+          .column-card {
+            flex-direction: column;
           }
         }
 

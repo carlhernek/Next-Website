@@ -7,92 +7,92 @@ export default function Resume() {
     <Container>
       <div className="page" tabIndex="0">
         <h1>Resumé</h1>
-        <h2>Resumé</h2>
-        <h3>Resumé</h3>
-        <p>
-          Banh mi air plant tempor pork belly health goth, hexagon PBR&B artisan
-          mollit sint pour-over. Vape hammock sint shaman gastropub tacos. Tacos
-          et food truck, deserunt typewriter brooklyn austin next level
-          live-edge. Flexitarian crucifix kombucha, locavore whatever blue
-          bottle proident woke. Four loko velit PBR&B irure. Incididunt you
-          probably haven't heard of them vegan jean shorts lyft deep v
-          consequat, sriracha listicle shabby chic pabst dolore leggings. Kale
-          chips twee sartorial 90's bitters tote bag salvia. Ullamco squid
-          bespoke lo-fi pok pok do dolore polaroid keytar.
-        </p>
-        <p>
-          Laboris tilde wayfarers hot chicken actually tumblr. Marfa green juice
-          dreamcatcher flexitarian aliqua vaporware dolore tote bag banjo.
-          Eiusmod meditation narwhal, gochujang yr try-hard slow-carb hell of
-          8-bit. Hexagon ad lyft, pickled typewriter ut biodiesel chicharrones
-          edison bulb swag yr trust fund aesthetic. Meggings typewriter ullamco
-          four loko bespoke vegan marfa, tbh shoreditch coloring book wolf
-          raclette tousled street art. Gentrify brooklyn you probably haven't
-          heard of them jianbing gluten-free portland. Single-origin coffee
-          locavore aliquip meh, 3 wolf moon succulents edison bulb tumblr beard
-          duis venmo brunch offal minim. Aute street art health goth, enim jean
-          shorts fingerstache nostrud. Irure crucifix man bun tousled sint.
-        </p>
-        <p>
-          Readymade qui beard, ea put a bird on it vape taiyaki consequat viral
-          quis lorem 90's in. Magna raclette vaporware umami distillery esse in
-          tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO.
-          Enamel pin craft beer coloring book, fam normcore pok pok quis.
-          Brooklyn you probably haven't heard of them plaid, prism keffiyeh
-          affogato single-origin coffee farm-to-table dolore adaptogen copper
-          mug church-key. Chillwave blog 8-bit church-key activated charcoal
-          forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread
-          excepteur drinking vinegar non raw denim kale chips fashion axe 90's
-          DIY four dollar toast id etsy aesthetic. Actually intelligentsia
-          chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud
-          bread bushwick +1 pickled. Aesthetic leggings consectetur
-          dreamcatcher, microdosing small batch paleo beard vice.
-        </p>
-        <p>
-          Readymade qui beard, ea put a bird on it vape taiyaki consequat viral
-          quis lorem 90's in. Magna raclette vaporware umami distillery esse in
-          tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO.
-          Enamel pin craft beer coloring book, fam normcore pok pok quis.
-          Brooklyn you probably haven't heard of them plaid, prism keffiyeh
-          affogato single-origin coffee farm-to-table dolore adaptogen copper
-          mug church-key. Chillwave blog 8-bit church-key activated charcoal
-          forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread
-          excepteur drinking vinegar non raw denim kale chips fashion axe 90's
-          DIY four dollar toast id etsy aesthetic. Actually intelligentsia
-          chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud
-          bread bushwick +1 pickled. Aesthetic leggings consectetur
-          dreamcatcher, microdosing small batch paleo beard vice.
-        </p>
-        <p>
-          Readymade qui beard, ea put a bird on it vape taiyaki consequat viral
-          quis lorem 90's in. Magna raclette vaporware umami distillery esse in
-          tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO.
-          Enamel pin craft beer coloring book, fam normcore pok pok quis.
-          Brooklyn you probably haven't heard of them plaid, prism keffiyeh
-          affogato single-origin coffee farm-to-table dolore adaptogen copper
-          mug church-key. Chillwave blog 8-bit church-key activated charcoal
-          forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread
-          excepteur drinking vinegar non raw denim kale chips fashion axe 90's
-          DIY four dollar toast id etsy aesthetic. Actually intelligentsia
-          chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud
-          bread bushwick +1 pickled. Aesthetic leggings consectetur
-          dreamcatcher, microdosing small batch paleo beard vice.
-        </p>
-        <p>
-          Readymade qui beard, ea put a bird on it vape taiyaki consequat viral
-          quis lorem 90's in. Magna raclette vaporware umami distillery esse in
-          tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO.
-          Enamel pin craft beer coloring book, fam normcore pok pok quis.
-          Brooklyn you probably haven't heard of them plaid, prism keffiyeh
-          affogato single-origin coffee farm-to-table dolore adaptogen copper
-          mug church-key. Chillwave blog 8-bit church-key activated charcoal
-          forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread
-          excepteur drinking vinegar non raw denim kale chips fashion axe 90's
-          DIY four dollar toast id etsy aesthetic. Actually intelligentsia
-          chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud
-          bread bushwick +1 pickled. Aesthetic leggings consectetur
-          dreamcatcher, microdosing small batch paleo beard vice.
-        </p>
+        <div className="project-card no-border">
+          <h3>Contact</h3>
+          <ul>
+            <li>+46 (0)70 66 55 078</li>
+            <li>
+              <a href="mailto:hello@carlhernek.se">hello@carlhernek.se</a>
+            </li>
+          </ul>
+        </div>
+        <div className="project-card no-border">
+          <h3>Toolbox</h3>
+          <div className="column-card no-border">
+            <ul>
+              <li className="no-border">
+                <h4>Frontend, UX / UI</h4>
+              </li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>javascript</li>
+              <li>Figma</li>
+              <li>Github</li>
+              <li>Node.js</li>
+              <li>Next.js</li>
+              <li>React</li>
+            </ul>
+            <ul>
+              <li className="no-border">
+                <h4>Design</h4>
+              </li>
+              <li>Industrial Design</li>
+              <li>Design Sketching</li>
+              <li>Design Thinking </li>
+              <li>Adobe CS</li>
+              <li>Rhinoceros</li>
+              <li>SolidWorks</li>
+              <li>Keyshot</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="project-card no-border">
+          <h3>Work & Internships</h3>
+          <div className="column-card no-border">
+            <ul>
+              <li className="no-border">
+                <h4>2019</h4>
+              </li>
+              <li>
+                User Research as a base for service development for a tourist
+                resort in Dalecarlia
+              </li>
+              <li>
+                Teaching Adobe CS design and editing tools at Leksands
+                Folkhögskola.
+              </li>
+            </ul>
+            <ul>
+              <li className="no-border">
+                <h4>Earlier</h4>
+              </li>
+              <li>2018 - Freelance Design</li>
+              <li>2017 - Design Internship No Picnic AB</li>
+              <li>2016 - Graphic Design & Layout, Ore gruppen </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="project-card no-border">
+          <h3>Education</h3>
+          <div className="column-card no-border">
+            <ul>
+              <li className="no-border">
+                <h4>University / Vocational University</h4>
+              </li>
+              <li>2019 - 2021, Frontend Developer, Hyper Island </li>
+              <li>2015 - 2018, BFA Industrial Design, UID </li>
+            </ul>
+            <ul>
+              <li className="no-border">
+                <h4>Other</h4>
+              </li>
+              <li>2013 - 2015, Design, Leksands Folkhögskola </li>
+            </ul>
+          </div>
+        </div>
+
         <Pagestyle />
         <Footer />
       </div>

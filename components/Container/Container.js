@@ -7,7 +7,7 @@ const Container = props => (
       <title>It just works</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link
-        href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+        href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Roboto+Mono&display=swap"
         rel="stylesheet"
       />
     </Head>
@@ -16,6 +16,13 @@ const Container = props => (
     <style jsx global>{`
       :root {
         font-size: 2vh;
+        --font-color: #1F2121;
+        --font-color-inverted: #F3F3F3;
+        --font-color-opacity: #f3f3f385;
+        --accent-color: #BD0000;
+        --link-color: #3f77f7;
+        --header-font: "Montserrat";
+        --text-font:  "Roboto-mono";
       }
 
       #__next {
@@ -29,6 +36,7 @@ const Container = props => (
         margin: 0;
         padding: 0;
         overflow: hidden;
+        color: var(--font-color);
 
         background: radial-gradient(
             circle at 69% 86%,
@@ -66,12 +74,19 @@ const Container = props => (
           linear-gradient(307deg, rgb(255, 255, 255), rgb(255, 255, 255));
       }
 
-      h1,
+      h1 {
+        font-family: "Montserrat";
+        font-weight: 700;
+        display: table;
+      }
+
       h2,
       h3,
       h4 {
-        font-family: "Raleway";
+        font-family: var(--header-font);
+        font-weight: 500;
         display: table;
+        margin: 0.8rem 0 0.3rem 0;
       }
 
       h4 {
@@ -81,11 +96,12 @@ const Container = props => (
       button,
       p,
       a {
-        font-family: "Raleway";
+        font-family: var(--text-font);
+        
       }
 
       ul {
-        font-family: "Raleway";
+        font-family: var(--text-font);
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -105,7 +121,7 @@ const Container = props => (
         overflow-y: scroll;
         overflow-x: hidden;
         scrollbar-width: thin;
-        scrollbar-color: black transparent;
+        scrollbar-color: var(--font-color) transparent;
       }
 
       .page::-webkit-scrollbar {
@@ -117,7 +133,7 @@ const Container = props => (
       }
 
       .page::-webkit-scrollbar-thumb {
-        background-color: black;
+        background-color: var(--font-color);
         border: none;
       }
 
@@ -142,7 +158,7 @@ const Container = props => (
       }
 
       :focus {
-        border: solid 3px black;
+        border: solid 3px var(--font-color);
       }
 
       @media only screen and (max-width: 1024px) {

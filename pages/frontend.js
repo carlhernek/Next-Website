@@ -25,7 +25,7 @@ export default function Frontend() {
           projectTitle="My First Portfolio Website"
           projectLink={[["Github", "https://github.com/carlhernek/Website"]]}
           projectDate="11/2019"
-          projectDesc="The very first version of my porfolio made 100% from scratch."
+          projectDesc="The very first version of my portfolio made 100% from scratch."
           projectTech={["HTML", "CSS", "Javascript"]}
         />
         <FrontendProjects
@@ -72,7 +72,7 @@ export default function Frontend() {
             ["Live Website", "https://pan-zoom-effects-css-js.netlify.com/"]
           ]}
           projectDate="11/2019"
-          projectDesc="The very first version of my porfolio made 100% from scratch."
+          projectDesc="The very first version of my portfolio made 100% from scratch."
           projectTech={["HTML", "CSS", "Javascript"]}
         />
         <Pagestyle />

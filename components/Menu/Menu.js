@@ -12,7 +12,7 @@ const Menu = () => {
       };
     } else {
       return {
-        left: "-7vw",
+        left: "-5vw",
         transition: "left .5s"
       };
     }
@@ -26,7 +26,10 @@ const Menu = () => {
 
   return (
     <nav className="menu" style={menuStyle(toggle)}>
-      <button className="toggle" onClick={() => menuToggle(toggle)}></button>
+      <button className="menu-open" onClick={() => menuToggle(toggle)}>
+        Open Menu
+      </button>
+
       <Link href="/">
         <a>Home</a>
       </Link>
@@ -39,8 +42,8 @@ const Menu = () => {
       <Link href="/resume">
         <a>Resumé</a>
       </Link>
-      <button className="tab" onClick={() => menuToggle(toggle)}>
-        Menu
+      <button className="menu-close" onClick={() => menuToggle(toggle)}>
+        Close Menu
       </button>
       <style jsx>
         {`
@@ -51,28 +54,28 @@ const Menu = () => {
             height: 100%;
           }
 
-          .toggle {
+          .menu-close {
             display: none;
-            position: absolute;
-            height: 100vh;
-            width: 110vw;
-            background-color: transparent;
             z-index: 1;
+            color: var(--accent-color);
+            background-color: transparent;
+            padding: 0.25rem;
+            font-size: 1rem;
           }
 
-          .tab {
+          .menu-open {
             display: none;
-            background-color: black;
-            color: white;
+            background-color: var(--font-color);
+            color: var(--font-color-inverted);
             position: absolute;
-            left: -3rem;
+            left: -4.5rem;
             transform: rotate(-90deg);
             font-size: 1rem;
             padding: 0.5rem 0.5rem 1.1rem 0.5rem;
           }
 
           nav a {
-            color: black;
+            color: var(--font-color);
             padding: 0.25rem;
             font-size: 1rem;
             transition: color 0.35s;
@@ -85,13 +88,15 @@ const Menu = () => {
           }
 
           nav a:focus {
-            background-color: black;
-            color: white;
+            background-color: var(--font-color);
+            color: var(--font-color-inverted);
             border: solid 3px transparent;
           }
 
-          .tab:focus {
-            border: none;
+          nav a:hover {
+            background-color: var(--font-color);
+            color: var(--font-color-inverted);
+            transition: color 0.35s;
           }
 
           @media only screen and (max-width: 1024px) {
@@ -99,43 +104,26 @@ const Menu = () => {
               position: absolute;
               width: 110vw;
               height: 100vh;
-              background-color: black;
+              background-color: var(--font-color);
               justify-content: center;
               align-items: center;
             }
 
-            .toggle {
+            .menu-close {
               display: block;
+              margin-top: 1.5rem;
             }
 
-            .tab {
+            .menu-open {
               display: block;
             }
 
             nav a {
               text-align: center;
               width: 50%;
-              color: white;
+              color: var(--font-color-inverted);
             }
 
-            nav a:nth-child (1) {
-              margin-top: 1rem;
-            }
-          }
-
-          nav a:hover {
-            background-color: black;
-            color: white;
-            transition: color 0.35s;
-          }
-
-          @media only screen and (orientation: portrait) {
-            nav a {
-              padding: 1.5rem 0.5rem;
-            }
-          }
-
-          @media only screen and (max-width: 1024px) {
             nav a:nth-child (1) {
               margin-top: 0.5rem;
             }
