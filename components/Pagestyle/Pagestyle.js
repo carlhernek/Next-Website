@@ -9,20 +9,24 @@ export default function Pagestyle() {
           padding: 0.5rem 0.75rem;
         }
 
+        h1 {
+          font-size: 2.2rem;
+        }
+
         h2 {
-          font-size: 1.5rem;
+          font-size: 1.9rem;
         }
 
         h3 {
-          font-size: 1.4rem;
+          font-size: 1.8rem;
         }
 
         h4 {
-          font-size: 1.3rem;
+          font-size: 1.5rem;
         }
 
         p {
-          font-size: 1.15rem;
+          font-size: 1.2rem;
         }
 
         ul {
@@ -31,12 +35,12 @@ export default function Pagestyle() {
         }
 
         li {
-          font-size: 1.15rem;
+          font-size: 1.2rem;
           display: table;
         }
 
         a {
-          font-size: 1.15rem;
+          font-size: 1.2rem;
           color: var(--link-color);
         }
 

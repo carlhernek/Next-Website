@@ -60,7 +60,9 @@ const Menu = () => {
             color: var(--accent-color);
             background-color: transparent;
             padding: 0.25rem;
-            font-size: 1rem;
+            font-size: 1.2rem;
+            border-top: solid 1px var(--accent-color);
+            border-bottom: solid 1px var(--accent-color);
           }
 
           .menu-open {
@@ -68,16 +70,16 @@ const Menu = () => {
             background-color: var(--font-color);
             color: var(--font-color-inverted);
             position: absolute;
-            left: -4.5rem;
+            left: -4rem;
             transform: rotate(-90deg);
-            font-size: 1rem;
+            font-size: 1.2 rem;
             padding: 0.5rem 0.5rem 1.1rem 0.5rem;
           }
 
           nav a {
             color: var(--font-color);
             padding: 0.25rem;
-            font-size: 1rem;
+            font-size: 1.2 rem;
             transition: color 0.35s;
             margin-left: 0;
             z-index: 2;

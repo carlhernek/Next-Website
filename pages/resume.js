@@ -9,7 +9,7 @@ export default function Resume() {
         <h1>Resumé</h1>
         <div className="project-card no-border">
           <h3>Contact</h3>
-          <ul>
+          <ul className="no-border">
             <li>+46 (0)70 66 55 078</li>
             <li>
               <a href="mailto:hello@carlhernek.se">hello@carlhernek.se</a>
@@ -19,20 +19,20 @@ export default function Resume() {
         <div className="project-card no-border">
           <h3>Toolbox</h3>
           <div className="column-card no-border">
-            <ul>
+            <ul className="no-border">
               <li className="no-border">
                 <h4>Frontend, UX / UI</h4>
               </li>
               <li>HTML</li>
               <li>CSS</li>
-              <li>javascript</li>
+              <li>Javascript</li>
               <li>Figma</li>
               <li>Github</li>
               <li>Node.js</li>
               <li>Next.js</li>
               <li>React</li>
             </ul>
-            <ul>
+            <ul className="no-border">
               <li className="no-border">
                 <h4>Design</h4>
               </li>
@@ -50,7 +50,7 @@ export default function Resume() {
         <div className="project-card no-border">
           <h3>Work & Internships</h3>
           <div className="column-card no-border">
-            <ul>
+            <ul className="no-border">
               <li className="no-border">
                 <h4>2019</h4>
               </li>
@@ -63,7 +63,7 @@ export default function Resume() {
                 Folkhögskola.
               </li>
             </ul>
-            <ul>
+            <ul className="no-border">
               <li className="no-border">
                 <h4>Earlier</h4>
               </li>
@@ -77,7 +77,7 @@ export default function Resume() {
         <div className="project-card no-border">
           <h3>Education</h3>
           <div className="column-card no-border">
-            <ul>
+            <ul className="no-border">
               <li className="no-border">
                 <h4>University / Vocational University</h4>
               </li>

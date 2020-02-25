@@ -7,7 +7,7 @@ const Container = props => (
       <title>It just works</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link
-        href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Roboto+Mono&display=swap"
+        href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700|Roboto+Mono&display=swap"
         rel="stylesheet"
       />
     </Head>
@@ -22,7 +22,7 @@ const Container = props => (
         --accent-color: #BD0000;
         --link-color: #3f77f7;
         --header-font: "Montserrat";
-        --text-font:  "Roboto-mono";
+        --text-font: "Roboto-mono";
       }
 
       #__next {
@@ -84,12 +84,13 @@ const Container = props => (
       h3,
       h4 {
         font-family: var(--header-font);
-        font-weight: 500;
+        font-weight: 600;
         display: table;
         margin: 0.8rem 0 0.3rem 0;
       }
 
       h4 {
+        font-weight: 500;
         margin-bottom: 0.45rem;
       }
 
