@@ -72,19 +72,19 @@ const Container = props => (
           linear-gradient(307deg, rgb(255, 255, 255), rgb(255, 255, 255));
       }
 
-      h1 {
+      h1, h2{
         font-family: "Montserrat";
         font-weight: 700;
         display: table;
       }
 
-      h2,
+      
       h3,
       h4 {
         font-family: "Montserrat";
         font-weight: 600;
         display: table;
-        margin: 0.8rem 0 0.3rem 0;
+        margin: 1.5rem 0 0.3rem 0;
       }
 
       h4 {

@@ -18,7 +18,7 @@ export default function Pagestyle() {
         }
 
         h3 {
-          font-size: 1.8rem;
+          font-size: 1.7rem;
         }
 
         h4 {
