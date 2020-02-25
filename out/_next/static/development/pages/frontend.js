@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\frontend.js"],{
 
 /***/ "./components/Container/Container.js":
 /*!*******************************************!*\
@@ -25,7 +25,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var Container = function Container(props) {
   return __jsx("div", {
-    className: "jsx-567890157" + " " + "container",
+    className: "jsx-2136898547" + " " + "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -38,7 +38,7 @@ var Container = function Container(props) {
     },
     __self: this
   }, __jsx("title", {
-    className: "jsx-567890157",
+    className: "jsx-2136898547",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -47,16 +47,16 @@ var Container = function Container(props) {
   }, "It just works"), __jsx("meta", {
     name: "viewport",
     content: "initial-scale=1.0, width=device-width",
-    className: "jsx-567890157",
+    className: "jsx-2136898547",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }), __jsx("link", {
-    href: "https://fonts.googleapis.com/css?family=Montserrat:500,600,700|Roboto+Mono&display=swap",
+    href: "https://fonts.googleapis.com/css?family=Inconsolata|Montserrat:500,600,700&display=swap",
     rel: "stylesheet",
-    className: "jsx-567890157",
+    className: "jsx-2136898547",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -69,9 +69,9 @@ var Container = function Container(props) {
     },
     __self: this
   }), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "567890157",
+    id: "2136898547",
     __self: this
-  }, ":root{font-size:2vh;--font-color:#1F2121;--font-color-inverted:#F3F3F3;--font-color-opacity:#f3f3f385;--accent-color:#BD0000;--link-color:#3f77f7;--header-font:\"Montserrat\";--text-font:\"Roboto-mono\";}#__next{margin:0;padding:0;}body{height:100vh;width:100vw;margin:0;padding:0;overflow:hidden;color:var(--font-color);background:radial-gradient( circle at 69% 86%, rgba(165,165,165,0.06) 0%, rgba(165,165,165,0.06) 25%, rgba(193,193,193,0.06) 25%, rgba(193,193,193,0.06) 50%, rgba(221,221,221,0.06) 50%, rgba(221,221,221,0.06) 75%, rgba(249,249,249,0.06) 75%, rgba(249,249,249,0.06) 100% ), radial-gradient( circle at 49% 76%, rgba(129,129,129,0.06) 0%, rgba(129,129,129,0.06) 25%, rgba(164,164,164,0.06) 25%, rgba(164,164,164,0.06) 50%, rgba(200,200,200,0.06) 50%, rgba(200,200,200,0.06) 75%, rgba(235,235,235,0.06) 75%, rgba(235,235,235,0.06) 100% ), radial-gradient( circle at 22% 64%, rgba(173,173,173,0.06) 0%, rgba(173,173,173,0.06) 25%, rgba(119,119,119,0.06) 25%, rgba(119,119,119,0.06) 50%, rgba(64,64,64,0.06) 50%, rgba(64,64,64,0.06) 75%, rgba(10,10,10,0.06) 75%, rgba(10,10,10,0.06) 100% ), linear-gradient(307deg,rgb(255,255,255),rgb(255,255,255));}h1{font-family:\"Montserrat\";font-weight:700;display:table;}h2,h3,h4{font-family:var(--header-font);font-weight:600;display:table;margin:0.8rem 0 0.3rem 0;}h4{font-weight:500;margin-bottom:0.45rem;}button,p,a{font-family:var(--text-font);}ul{font-family:var(--text-font);list-style-type:none;margin:0;padding:0;}#__next{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100vw;height:100vh;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.page{margin-left:1rem;padding:0 1.5rem 0 0;overflow-y:scroll;overflow-x:hidden;-webkit-scrollbar-width:thin;-moz-scrollbar-width:thin;-ms-scrollbar-width:thin;scrollbar-width:thin;-webkit-scrollbar-color:var(--font-color) transparent;-moz-scrollbar-color:var(--font-color) transparent;-ms-scrollbar-color:var(--font-color) transparent;scrollbar-color:var(--font-color) transparent;}.page::-webkit-scrollbar{width:8px;}.page::-webkit-scrollbar-track{background:transparent;}.page::-webkit-scrollbar-thumb{background-color:var(--font-color);border:none;}.container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;height:70vh;width:1024px;overflow:hidden;}.container *{border:solid 3px transparent;}.no-border{border:none;}.no-margin-top{margin-top:0;}:focus{border:solid 3px var(--font-color);}@media only screen and (max-width:1024px){.page{padding-left:0.5rem;padding-right:0.5rem;margin:0;}.container{height:100vh;width:100vw;position:fixed;}}@media only screen and (max-width:1024px) and (orientation:landscape){:root{font-size:2vw;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxEcm9wYm94XFxDcmVhdGl2ZSBDbG91ZCBGaWxlc1xcX0hJXFxfUHJvamVjdHNcXE5leHQtV2Vic2l0ZVxcY29tcG9uZW50c1xcQ29udGFpbmVyXFxDb250YWluZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZXVCLEFBR3VCLEFBV0wsQUFLSSxBQTRDWSxBQVFNLEFBT2YsQUFPYSxBQUtBLEFBT2hCLEFBUUcsQUFTTixBQUlhLEFBSVksQUFLdEIsQUFRZ0IsQUFJakIsQUFJQyxBQUlzQixBQUtiLEFBTVAsQUFRQyxTQXZKTixDQW9HWixFQXlCQSxDQXhIYyxBQTRIZCxBQWVnQixDQTNKTyxBQW1LckIsRUF4RnNCLENBMkJELEVBMUZ2QixDQXlJeUIsR0FsQ3pCLEVBbEdXLEFBMkNPLEFBZ0dDLElBekVuQixBQUl1QixBQTZDdkIsRUFoRWtCLEdBbEROLENBakJvQixBQXNIbEIsQUF5QmQsR0FwRUEsQUEyQm9CLEVBc0RsQixDQWhHYyxBQXlGSCxHQW5JSyxHQWtERixBQW1EaEIsR0FoQ1csQUErRFQsS0F6RkYsQ0EwQ29CLEdBZlIsQ0FyRWMsQ0FrREMsSUFwRU0sSUF3RmpDLEtBSWMsQUFXUyxBQW1CRixVQXJFOEMsRUFnQm5FLEFBd0JlLFVBNUZVLEdBNkZBLG9CQTVGRixxQkFDTSxHQXdIZixZQUNDLFlBeEhhLENBeUhWLE9BckI4QixTQXNCaEQsU0F6SEEsS0EwRnFCLDZGQUNyQixxRkFTQSx1aUJBbkRBIiwiZmlsZSI6IkQ6XFxEcm9wYm94XFxDcmVhdGl2ZSBDbG91ZCBGaWxlc1xcX0hJXFxfUHJvamVjdHNcXE5leHQtV2Vic2l0ZVxcY29tcG9uZW50c1xcQ29udGFpbmVyXFxDb250YWluZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTWVudSBmcm9tIFwiLi4vTWVudS9NZW51XCI7XHJcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuXHJcbmNvbnN0IENvbnRhaW5lciA9IHByb3BzID0+IChcclxuICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgPEhlYWQ+XHJcbiAgICAgIDx0aXRsZT5JdCBqdXN0IHdvcmtzPC90aXRsZT5cclxuICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cImluaXRpYWwtc2NhbGU9MS4wLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TW9udHNlcnJhdDo1MDAsNjAwLDcwMHxSb2JvdG8rTW9ubyZkaXNwbGF5PXN3YXBcIlxyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAvPlxyXG4gICAgPC9IZWFkPlxyXG4gICAgPE1lbnUgLz5cclxuICAgIHtwcm9wcy5jaGlsZHJlbn1cclxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgIDpyb290IHtcclxuICAgICAgICBmb250LXNpemU6IDJ2aDtcclxuICAgICAgICAtLWZvbnQtY29sb3I6ICMxRjIxMjE7XHJcbiAgICAgICAgLS1mb250LWNvbG9yLWludmVydGVkOiAjRjNGM0YzO1xyXG4gICAgICAgIC0tZm9udC1jb2xvci1vcGFjaXR5OiAjZjNmM2YzODU7XHJcbiAgICAgICAgLS1hY2NlbnQtY29sb3I6ICNCRDAwMDA7XHJcbiAgICAgICAgLS1saW5rLWNvbG9yOiAjM2Y3N2Y3O1xyXG4gICAgICAgIC0taGVhZGVyLWZvbnQ6IFwiTW9udHNlcnJhdFwiO1xyXG4gICAgICAgIC0tdGV4dC1mb250OiBcIlJvYm90by1tb25vXCI7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgICNfX25leHQge1xyXG4gICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICBwYWRkaW5nOiAwO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBib2R5IHtcclxuICAgICAgICBoZWlnaHQ6IDEwMHZoO1xyXG4gICAgICAgIHdpZHRoOiAxMDB2dztcclxuICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgICAgIGNvbG9yOiB2YXIoLS1mb250LWNvbG9yKTtcclxuXHJcbiAgICAgICAgYmFja2dyb3VuZDogcmFkaWFsLWdyYWRpZW50KFxyXG4gICAgICAgICAgICBjaXJjbGUgYXQgNjklIDg2JSxcclxuICAgICAgICAgICAgcmdiYSgxNjUsIDE2NSwgMTY1LCAwLjA2KSAwJSxcclxuICAgICAgICAgICAgcmdiYSgxNjUsIDE2NSwgMTY1LCAwLjA2KSAyNSUsXHJcbiAgICAgICAgICAgIHJnYmEoMTkzLCAxOTMsIDE5MywgMC4wNikgMjUlLFxyXG4gICAgICAgICAgICByZ2JhKDE5MywgMTkzLCAxOTMsIDAuMDYpIDUwJSxcclxuICAgICAgICAgICAgcmdiYSgyMjEsIDIyMSwgMjIxLCAwLjA2KSA1MCUsXHJcbiAgICAgICAgICAgIHJnYmEoMjIxLCAyMjEsIDIyMSwgMC4wNikgNzUlLFxyXG4gICAgICAgICAgICByZ2JhKDI0OSwgMjQ5LCAyNDksIDAuMDYpIDc1JSxcclxuICAgICAgICAgICAgcmdiYSgyNDksIDI0OSwgMjQ5LCAwLjA2KSAxMDAlXHJcbiAgICAgICAgICApLFxyXG4gICAgICAgICAgcmFkaWFsLWdyYWRpZW50KFxyXG4gICAgICAgICAgICBjaXJjbGUgYXQgNDklIDc2JSxcclxuICAgICAgICAgICAgcmdiYSgxMjksIDEyOSwgMTI5LCAwLjA2KSAwJSxcclxuICAgICAgICAgICAgcmdiYSgxMjksIDEyOSwgMTI5LCAwLjA2KSAyNSUsXHJcbiAgICAgICAgICAgIHJnYmEoMTY0LCAxNjQsIDE2NCwgMC4wNikgMjUlLFxyXG4gICAgICAgICAgICByZ2JhKDE2NCwgMTY0LCAxNjQsIDAuMDYpIDUwJSxcclxuICAgICAgICAgICAgcmdiYSgyMDAsIDIwMCwgMjAwLCAwLjA2KSA1MCUsXHJcbiAgICAgICAgICAgIHJnYmEoMjAwLCAyMDAsIDIwMCwgMC4wNikgNzUlLFxyXG4gICAgICAgICAgICByZ2JhKDIzNSwgMjM1LCAyMzUsIDAuMDYpIDc1JSxcclxuICAgICAgICAgICAgcmdiYSgyMzUsIDIzNSwgMjM1LCAwLjA2KSAxMDAlXHJcbiAgICAgICAgICApLFxyXG4gICAgICAgICAgcmFkaWFsLWdyYWRpZW50KFxyXG4gICAgICAgICAgICBjaXJjbGUgYXQgMjIlIDY0JSxcclxuICAgICAgICAgICAgcmdiYSgxNzMsIDE3MywgMTczLCAwLjA2KSAwJSxcclxuICAgICAgICAgICAgcmdiYSgxNzMsIDE3MywgMTczLCAwLjA2KSAyNSUsXHJcbiAgICAgICAgICAgIHJnYmEoMTE5LCAxMTksIDExOSwgMC4wNikgMjUlLFxyXG4gICAgICAgICAgICByZ2JhKDExOSwgMTE5LCAxMTksIDAuMDYpIDUwJSxcclxuICAgICAgICAgICAgcmdiYSg2NCwgNjQsIDY0LCAwLjA2KSA1MCUsXHJcbiAgICAgICAgICAgIHJnYmEoNjQsIDY0LCA2NCwgMC4wNikgNzUlLFxyXG4gICAgICAgICAgICByZ2JhKDEwLCAxMCwgMTAsIDAuMDYpIDc1JSxcclxuICAgICAgICAgICAgcmdiYSgxMCwgMTAsIDEwLCAwLjA2KSAxMDAlXHJcbiAgICAgICAgICApLFxyXG4gICAgICAgICAgbGluZWFyLWdyYWRpZW50KDMwN2RlZywgcmdiKDI1NSwgMjU1LCAyNTUpLCByZ2IoMjU1LCAyNTUsIDI1NSkpO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBoMSB7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6IFwiTW9udHNlcnJhdFwiO1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7XHJcbiAgICAgICAgZGlzcGxheTogdGFibGU7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGgyLFxyXG4gICAgICBoMyxcclxuICAgICAgaDQge1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1oZWFkZXItZm9udCk7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgICAgICBkaXNwbGF5OiB0YWJsZTtcclxuICAgICAgICBtYXJnaW46IDAuOHJlbSAwIDAuM3JlbSAwO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBoNCB7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAwLjQ1cmVtO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBidXR0b24sXHJcbiAgICAgIHAsXHJcbiAgICAgIGEge1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS10ZXh0LWZvbnQpO1xyXG4gICAgICAgIFxyXG4gICAgICB9XHJcblxyXG4gICAgICB1bCB7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLXRleHQtZm9udCk7XHJcbiAgICAgICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICBwYWRkaW5nOiAwO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAjX19uZXh0IHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIHdpZHRoOiAxMDB2dztcclxuICAgICAgICBoZWlnaHQ6IDEwMHZoO1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5wYWdlIHtcclxuICAgICAgICBtYXJnaW4tbGVmdCAxcmVtO1xyXG4gICAgICAgIHBhZGRpbmc6IDAgMS41cmVtIDAgMDtcclxuICAgICAgICBvdmVyZmxvdy15OiBzY3JvbGw7XHJcbiAgICAgICAgb3ZlcmZsb3cteDogaGlkZGVuO1xyXG4gICAgICAgIHNjcm9sbGJhci13aWR0aDogdGhpbjtcclxuICAgICAgICBzY3JvbGxiYXItY29sb3I6IHZhcigtLWZvbnQtY29sb3IpIHRyYW5zcGFyZW50O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAucGFnZTo6LXdlYmtpdC1zY3JvbGxiYXIge1xyXG4gICAgICAgIHdpZHRoOiA4cHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5wYWdlOjotd2Via2l0LXNjcm9sbGJhci10cmFjayB7XHJcbiAgICAgICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5wYWdlOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tZm9udC1jb2xvcik7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuY29udGFpbmVyIHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgICAgICAgaGVpZ2h0OiA3MHZoO1xyXG4gICAgICAgIHdpZHRoOiAxMDI0cHg7XHJcbiAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgICAgfVxyXG5cclxuICAgICAgLmNvbnRhaW5lciAqIHtcclxuICAgICAgICBib3JkZXI6IHNvbGlkIDNweCB0cmFuc3BhcmVudDtcclxuICAgICAgfVxyXG5cclxuICAgICAgLm5vLWJvcmRlciB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAubm8tbWFyZ2luLXRvcCB7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogMDtcclxuICAgICAgfVxyXG5cclxuICAgICAgOmZvY3VzIHtcclxuICAgICAgICBib3JkZXI6IHNvbGlkIDNweCB2YXIoLS1mb250LWNvbG9yKTtcclxuICAgICAgfVxyXG5cclxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMDI0cHgpIHtcclxuICAgICAgICAucGFnZSB7XHJcbiAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDAuNXJlbTtcclxuICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDAuNXJlbTtcclxuICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5jb250YWluZXIge1xyXG4gICAgICAgICAgaGVpZ2h0OiAxMDB2aDtcclxuICAgICAgICAgIHdpZHRoOiAxMDB2dztcclxuICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogMTAyNHB4KSBhbmQgKG9yaWVudGF0aW9uOiBsYW5kc2NhcGUpIHtcclxuICAgICAgICA6cm9vdCB7XHJcbiAgICAgICAgICBmb250LXNpemU6IDJ2dztcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IENvbnRhaW5lcjtcclxuIl19 */\n/*@ sourceURL=D:\\\\Dropbox\\\\Creative Cloud Files\\\\_HI\\\\_Projects\\\\Next-Website\\\\components\\\\Container\\\\Container.js */"));
+  }, ":root{font-size:2vh;--font-color:#1F2121;--font-color-inverted:#F3F3F3;--font-color-opacity:#f3f3f385;--accent-color:#BD0000;--link-color:#3f77f7;}#__next{margin:0;padding:0;}body{height:100vh;width:100vw;margin:0;padding:0;overflow:hidden;color:var(--font-color);background:radial-gradient( circle at 69% 86%, rgba(165,165,165,0.06) 0%, rgba(165,165,165,0.06) 25%, rgba(193,193,193,0.06) 25%, rgba(193,193,193,0.06) 50%, rgba(221,221,221,0.06) 50%, rgba(221,221,221,0.06) 75%, rgba(249,249,249,0.06) 75%, rgba(249,249,249,0.06) 100% ), radial-gradient( circle at 49% 76%, rgba(129,129,129,0.06) 0%, rgba(129,129,129,0.06) 25%, rgba(164,164,164,0.06) 25%, rgba(164,164,164,0.06) 50%, rgba(200,200,200,0.06) 50%, rgba(200,200,200,0.06) 75%, rgba(235,235,235,0.06) 75%, rgba(235,235,235,0.06) 100% ), radial-gradient( circle at 22% 64%, rgba(173,173,173,0.06) 0%, rgba(173,173,173,0.06) 25%, rgba(119,119,119,0.06) 25%, rgba(119,119,119,0.06) 50%, rgba(64,64,64,0.06) 50%, rgba(64,64,64,0.06) 75%, rgba(10,10,10,0.06) 75%, rgba(10,10,10,0.06) 100% ), linear-gradient(307deg,rgb(255,255,255),rgb(255,255,255));}h1{font-family:\"Montserrat\";font-weight:700;display:table;}h2,h3,h4{font-family:\"Montserrat\";font-weight:600;display:table;margin:0.8rem 0 0.3rem 0;}h4{font-weight:500;margin-bottom:0.45rem;}button,p,a{font-family:\"Inconsolata\";}ul{font-family:\"Inconsolata\";list-style-type:none;margin:0;padding:0;}#__next{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100vw;height:100vh;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.page{margin-left:1rem;padding:0 1.5rem 0 0;overflow-y:scroll;overflow-x:hidden;-webkit-scrollbar-width:thin;-moz-scrollbar-width:thin;-ms-scrollbar-width:thin;scrollbar-width:thin;-webkit-scrollbar-color:var(--font-color) transparent;-moz-scrollbar-color:var(--font-color) transparent;-ms-scrollbar-color:var(--font-color) transparent;scrollbar-color:var(--font-color) transparent;}.page::-webkit-scrollbar{width:8px;}.page::-webkit-scrollbar-track{background:transparent;}.page::-webkit-scrollbar-thumb{background-color:var(--font-color);border:none;}.container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;height:70vh;width:1024px;overflow:hidden;}.container *{border:solid 3px transparent;}.no-border{border:none;}.no-margin-top{margin-top:0;}:focus{border:solid 3px var(--font-color);}@media only screen and (max-width:1024px){.page{padding-left:0.5rem;padding-right:0.5rem;margin:0;}.container{height:100vh;width:100vw;position:fixed;}}@media only screen and (max-width:1024px) and (orientation:landscape){:root{font-size:2vw;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxEcm9wYm94XFxDcmVhdGl2ZSBDbG91ZCBGaWxlc1xcX0hJXFxfUHJvamVjdHNcXE5leHQtV2Vic2l0ZVxcY29tcG9uZW50c1xcQ29udGFpbmVyXFxDb250YWluZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZXVCLEFBR3VCLEFBU0wsQUFLSSxBQTRDWSxBQVFBLEFBT1QsQUFPVSxBQUtBLEFBT2IsQUFRRyxBQVNOLEFBSWEsQUFJWSxBQUt0QixBQVFnQixBQUlqQixBQUlDLEFBSXNCLEFBS2IsQUFNUCxBQVFDLFNBdkpOLENBb0daLEVBeUJBLENBeEhjLEFBNEhkLEFBZWdCLENBekpPLEFBaUtyQixFQXhGc0IsQ0EyQkQsRUExRnZCLENBeUl5QixHQWxDekIsRUFsR1csQUEyQ08sQUFRQSxBQXdGQyxDQXpFbkIsQUFJdUIsR0E2Q3ZCLEtBbEhZLENBZm9CLEFBb0hsQixBQXlCZCxHQXBFQSxBQTJCb0IsRUFzRGxCLENBaEdjLEFBUUEsQUFpRkgsR0FuSUssR0FxRVAsQUFnQ1gsR0ErQkUsS0F6RkYsQUFRMkIsQ0FtQmYsQUFlUSxJQXBGTSxLQWhCTyxDQXNGakMsUUFJYyxBQVdTLEFBbUJGLE1BckRyQixJQWhCbUUsRUF3Q3BELFVBMUZVLEdBMkZBLG9CQTFGRixxQkFDdkIsR0FzSGMsWUFDQyxhQUNHLE9BckI4QixTQXNCaEQsY0EvQnFCLDZGQUNyQixxRkFTQSx1aUJBbkRBIiwiZmlsZSI6IkQ6XFxEcm9wYm94XFxDcmVhdGl2ZSBDbG91ZCBGaWxlc1xcX0hJXFxfUHJvamVjdHNcXE5leHQtV2Vic2l0ZVxcY29tcG9uZW50c1xcQ29udGFpbmVyXFxDb250YWluZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTWVudSBmcm9tIFwiLi4vTWVudS9NZW51XCI7XHJcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuXHJcbmNvbnN0IENvbnRhaW5lciA9IHByb3BzID0+IChcclxuICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgPEhlYWQ+XHJcbiAgICAgIDx0aXRsZT5JdCBqdXN0IHdvcmtzPC90aXRsZT5cclxuICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cImluaXRpYWwtc2NhbGU9MS4wLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9SW5jb25zb2xhdGF8TW9udHNlcnJhdDo1MDAsNjAwLDcwMCZkaXNwbGF5PXN3YXBcIlxyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAvPlxyXG4gICAgPC9IZWFkPlxyXG4gICAgPE1lbnUgLz5cclxuICAgIHtwcm9wcy5jaGlsZHJlbn1cclxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgIDpyb290IHtcclxuICAgICAgICBmb250LXNpemU6IDJ2aDtcclxuICAgICAgICAtLWZvbnQtY29sb3I6ICMxRjIxMjE7XHJcbiAgICAgICAgLS1mb250LWNvbG9yLWludmVydGVkOiAjRjNGM0YzO1xyXG4gICAgICAgIC0tZm9udC1jb2xvci1vcGFjaXR5OiAjZjNmM2YzODU7XHJcbiAgICAgICAgLS1hY2NlbnQtY29sb3I6ICNCRDAwMDA7XHJcbiAgICAgICAgLS1saW5rLWNvbG9yOiAjM2Y3N2Y3O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAjX19uZXh0IHtcclxuICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgfVxyXG5cclxuICAgICAgYm9keSB7XHJcbiAgICAgICAgaGVpZ2h0OiAxMDB2aDtcclxuICAgICAgICB3aWR0aDogMTAwdnc7XHJcbiAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgIHBhZGRpbmc6IDA7XHJcbiAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgICAgICBjb2xvcjogdmFyKC0tZm9udC1jb2xvcik7XHJcblxyXG4gICAgICAgIGJhY2tncm91bmQ6IHJhZGlhbC1ncmFkaWVudChcclxuICAgICAgICAgICAgY2lyY2xlIGF0IDY5JSA4NiUsXHJcbiAgICAgICAgICAgIHJnYmEoMTY1LCAxNjUsIDE2NSwgMC4wNikgMCUsXHJcbiAgICAgICAgICAgIHJnYmEoMTY1LCAxNjUsIDE2NSwgMC4wNikgMjUlLFxyXG4gICAgICAgICAgICByZ2JhKDE5MywgMTkzLCAxOTMsIDAuMDYpIDI1JSxcclxuICAgICAgICAgICAgcmdiYSgxOTMsIDE5MywgMTkzLCAwLjA2KSA1MCUsXHJcbiAgICAgICAgICAgIHJnYmEoMjIxLCAyMjEsIDIyMSwgMC4wNikgNTAlLFxyXG4gICAgICAgICAgICByZ2JhKDIyMSwgMjIxLCAyMjEsIDAuMDYpIDc1JSxcclxuICAgICAgICAgICAgcmdiYSgyNDksIDI0OSwgMjQ5LCAwLjA2KSA3NSUsXHJcbiAgICAgICAgICAgIHJnYmEoMjQ5LCAyNDksIDI0OSwgMC4wNikgMTAwJVxyXG4gICAgICAgICAgKSxcclxuICAgICAgICAgIHJhZGlhbC1ncmFkaWVudChcclxuICAgICAgICAgICAgY2lyY2xlIGF0IDQ5JSA3NiUsXHJcbiAgICAgICAgICAgIHJnYmEoMTI5LCAxMjksIDEyOSwgMC4wNikgMCUsXHJcbiAgICAgICAgICAgIHJnYmEoMTI5LCAxMjksIDEyOSwgMC4wNikgMjUlLFxyXG4gICAgICAgICAgICByZ2JhKDE2NCwgMTY0LCAxNjQsIDAuMDYpIDI1JSxcclxuICAgICAgICAgICAgcmdiYSgxNjQsIDE2NCwgMTY0LCAwLjA2KSA1MCUsXHJcbiAgICAgICAgICAgIHJnYmEoMjAwLCAyMDAsIDIwMCwgMC4wNikgNTAlLFxyXG4gICAgICAgICAgICByZ2JhKDIwMCwgMjAwLCAyMDAsIDAuMDYpIDc1JSxcclxuICAgICAgICAgICAgcmdiYSgyMzUsIDIzNSwgMjM1LCAwLjA2KSA3NSUsXHJcbiAgICAgICAgICAgIHJnYmEoMjM1LCAyMzUsIDIzNSwgMC4wNikgMTAwJVxyXG4gICAgICAgICAgKSxcclxuICAgICAgICAgIHJhZGlhbC1ncmFkaWVudChcclxuICAgICAgICAgICAgY2lyY2xlIGF0IDIyJSA2NCUsXHJcbiAgICAgICAgICAgIHJnYmEoMTczLCAxNzMsIDE3MywgMC4wNikgMCUsXHJcbiAgICAgICAgICAgIHJnYmEoMTczLCAxNzMsIDE3MywgMC4wNikgMjUlLFxyXG4gICAgICAgICAgICByZ2JhKDExOSwgMTE5LCAxMTksIDAuMDYpIDI1JSxcclxuICAgICAgICAgICAgcmdiYSgxMTksIDExOSwgMTE5LCAwLjA2KSA1MCUsXHJcbiAgICAgICAgICAgIHJnYmEoNjQsIDY0LCA2NCwgMC4wNikgNTAlLFxyXG4gICAgICAgICAgICByZ2JhKDY0LCA2NCwgNjQsIDAuMDYpIDc1JSxcclxuICAgICAgICAgICAgcmdiYSgxMCwgMTAsIDEwLCAwLjA2KSA3NSUsXHJcbiAgICAgICAgICAgIHJnYmEoMTAsIDEwLCAxMCwgMC4wNikgMTAwJVxyXG4gICAgICAgICAgKSxcclxuICAgICAgICAgIGxpbmVhci1ncmFkaWVudCgzMDdkZWcsIHJnYigyNTUsIDI1NSwgMjU1KSwgcmdiKDI1NSwgMjU1LCAyNTUpKTtcclxuICAgICAgfVxyXG5cclxuICAgICAgaDEge1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBcIk1vbnRzZXJyYXRcIjtcclxuICAgICAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgICAgIGRpc3BsYXk6IHRhYmxlO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBoMixcclxuICAgICAgaDMsXHJcbiAgICAgIGg0IHtcclxuICAgICAgICBmb250LWZhbWlseTogXCJNb250c2VycmF0XCI7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgICAgICBkaXNwbGF5OiB0YWJsZTtcclxuICAgICAgICBtYXJnaW46IDAuOHJlbSAwIDAuM3JlbSAwO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBoNCB7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAwLjQ1cmVtO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBidXR0b24sXHJcbiAgICAgIHAsXHJcbiAgICAgIGEge1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBcIkluY29uc29sYXRhXCI7XHJcbiAgICAgICAgXHJcbiAgICAgIH1cclxuXHJcbiAgICAgIHVsIHtcclxuICAgICAgICBmb250LWZhbWlseTogXCJJbmNvbnNvbGF0YVwiO1xyXG4gICAgICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgfVxyXG5cclxuICAgICAgI19fbmV4dCB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICB3aWR0aDogMTAwdnc7XHJcbiAgICAgICAgaGVpZ2h0OiAxMDB2aDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAucGFnZSB7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQgMXJlbTtcclxuICAgICAgICBwYWRkaW5nOiAwIDEuNXJlbSAwIDA7XHJcbiAgICAgICAgb3ZlcmZsb3cteTogc2Nyb2xsO1xyXG4gICAgICAgIG92ZXJmbG93LXg6IGhpZGRlbjtcclxuICAgICAgICBzY3JvbGxiYXItd2lkdGg6IHRoaW47XHJcbiAgICAgICAgc2Nyb2xsYmFyLWNvbG9yOiB2YXIoLS1mb250LWNvbG9yKSB0cmFuc3BhcmVudDtcclxuICAgICAgfVxyXG5cclxuICAgICAgLnBhZ2U6Oi13ZWJraXQtc2Nyb2xsYmFyIHtcclxuICAgICAgICB3aWR0aDogOHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAucGFnZTo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sge1xyXG4gICAgICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAucGFnZTo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIge1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWZvbnQtY29sb3IpO1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgfVxyXG5cclxuICAgICAgLmNvbnRhaW5lciB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gICAgICAgIGhlaWdodDogNzB2aDtcclxuICAgICAgICB3aWR0aDogMTAyNHB4O1xyXG4gICAgICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5jb250YWluZXIgKiB7XHJcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAzcHggdHJhbnNwYXJlbnQ7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5uby1ib3JkZXIge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgfVxyXG5cclxuICAgICAgLm5vLW1hcmdpbi10b3Age1xyXG4gICAgICAgIG1hcmdpbi10b3A6IDA7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIDpmb2N1cyB7XHJcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAzcHggdmFyKC0tZm9udC1jb2xvcik7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogMTAyNHB4KSB7XHJcbiAgICAgICAgLnBhZ2Uge1xyXG4gICAgICAgICAgcGFkZGluZy1sZWZ0OiAwLjVyZW07XHJcbiAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiAwLjVyZW07XHJcbiAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAuY29udGFpbmVyIHtcclxuICAgICAgICAgIGhlaWdodDogMTAwdmg7XHJcbiAgICAgICAgICB3aWR0aDogMTAwdnc7XHJcbiAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEwMjRweCkgYW5kIChvcmllbnRhdGlvbjogbGFuZHNjYXBlKSB7XHJcbiAgICAgICAgOnJvb3Qge1xyXG4gICAgICAgICAgZm9udC1zaXplOiAydnc7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcbik7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBDb250YWluZXI7XHJcbiJdfQ== */\n/*@ sourceURL=D:\\\\Dropbox\\\\Creative Cloud Files\\\\_HI\\\\_Projects\\\\Next-Website\\\\components\\\\Container\\\\Container.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Container);
@@ -284,6 +284,260 @@ function Pagestyle() {
     },
     __self: this
   }, "\n        h1:first-of-type {\n          margin: 0.5rem 0;\n          background-color: var(--font-color);\n          color: var(--font-color-inverted);\n          padding: 0.5rem 0.75rem;\n        }\n\n        h1 {\n          font-size: 2.2rem;\n        }\n\n        h2 {\n          font-size: 1.9rem;\n        }\n\n        h3 {\n          font-size: 1.8rem;\n        }\n\n        h4 {\n          font-size: 1.5rem;\n        }\n\n        p {\n          font-size: 1.2rem;\n        }\n\n        ul {\n          display: table;\n          margin-right: 1rem;\n        }\n\n        li {\n          font-size: 1.2rem;\n          display: table;\n        }\n\n        a {\n          font-size: 1.2rem;\n          color: var(--link-color);\n        }\n\n        .project-card {\n          border-left: solid 7px var(--font-color);\n          padding: 0.125rem 0.125rem 0.125rem 0.5rem;\n          margin: 0.5rem 0;\n          background-color: var(--font-color-opacity);\n        }\n\n        .project-img {\n          object-fit: cover;\n          height: 13rem;\n          width: 13rem;\n          margin: 0 0.75rem 0.75rem 0;\n        }\n\n        .project-vid {\n          width: 26rem;\n          margin: 0 0.75rem 0.75rem 0;\n        }\n\n        .media-container {\n          display: flex;\n          flex-wrap: wrap;\n        }\n\n        .column-card {\n          display: flex;\n        }\n\n        @media only screen and (orientation: portrait) {\n          .project-img {\n            object-fit: contain;\n            width: 100%;\n            height: auto;\n            margin: 0 0 0.75rem 0;\n          }\n\n          .project-vid {\n            width: 100%;\n            min-width: 100%;\n            margin: 0 0 0.75rem 0;\n          }\n\n          .media-container {\n            flex-direction: column;\n            flex-wrap: nowrap;\n          }\n\n          .column-card {\n            flex-direction: column;\n          }\n        }\n\n        @media only screen and (max-width: 1024px) {\n          h1:first-of-type {\n            margin: 0.5rem 0;\n          }\n        }\n      ");
+}
+
+/***/ }),
+
+/***/ "./components/Projects/FrontendProjects.js":
+/*!*************************************************!*\
+  !*** ./components/Projects/FrontendProjects.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FrontendProjects; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\components\\Projects\\FrontendProjects.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var tech = function tech(param) {
+  var techList = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      return techList.push(__jsx("li", {
+        key: index,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 4
+        },
+        __self: this
+      }, item));
+    });
+    return techList;
+  }
+};
+
+var links = function links(param) {
+  var linkList = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      return linkList.push(__jsx("a", {
+        key: index,
+        href: item[1],
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, item[0], __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      })));
+    });
+    return linkList;
+  }
+};
+
+var media = function media(param) {
+  var mediaContainer = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      if (item[0] === "img") {
+        mediaContainer.push(__jsx("img", {
+          key: index,
+          src: item[1],
+          alt: item[2],
+          className: "project-img no-border",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31
+          },
+          __self: this
+        }));
+      }
+
+      if (item[0] === "vid") {
+        switch (item[2]) {
+          case "mp4":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 44
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/mp4",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 50
+              },
+              __self: this
+            })));
+            break;
+
+          case "webm":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 56
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/webm",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 62
+              },
+              __self: this
+            })));
+            break;
+
+          case "ogg":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 68
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/ogg",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 74
+              },
+              __self: this
+            })));
+            break;
+
+          default:
+            break;
+        }
+      }
+    });
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    }, __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85
+      },
+      __self: this
+    }, "Media"), __jsx("div", {
+      className: "media-container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 86
+      },
+      __self: this
+    }, mediaContainer));
+  }
+};
+
+function FrontendProjects(_ref) {
+  var projectTitle = _ref.projectTitle,
+      projectMedia = _ref.projectMedia,
+      projectLink = _ref.projectLink,
+      projectDate = _ref.projectDate,
+      projectDesc = _ref.projectDesc,
+      projectTech = _ref.projectTech;
+  return __jsx("div", {
+    className: "project-card no-border",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, projectTitle), __jsx("div", {
+    className: "no-border",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "no-border",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Links"), links(projectLink), __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, "Project Description"), __jsx("p", {
+    className: "no-margin-top",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, projectDate, __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  }), projectDesc), __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, "Made With"), __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }, tech(projectTech))), media(projectMedia)));
 }
 
 /***/ }),
@@ -5075,21 +5329,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js!./":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js!./":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/frontend", function() {
+      var mod = __webpack_require__(/*! ./pages/frontend.js */ "./pages/frontend.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/frontend.js */ "./pages/frontend.js", function() {
+          if(!next.router.components["/frontend"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/frontend.js */ "./pages/frontend.js")
+          next.router.update("/frontend", updatedPage)
         })
       }
       return mod
@@ -11436,32 +11690,34 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/frontend.js":
+/*!***************************!*\
+  !*** ./pages/frontend.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Frontend; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Container_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Container/Container */ "./components/Container/Container.js");
 /* harmony import */ var _components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Pagestyle/Pagestyle */ "./components/Pagestyle/Pagestyle.js");
-/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
-var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\index.js";
+/* harmony import */ var _components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Projects/FrontendProjects */ "./components/Projects/FrontendProjects.js");
+/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
+var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\frontend.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-function Index() {
+
+function Frontend() {
   return __jsx(_components_Container_Container__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, __jsx("div", {
@@ -11469,79 +11725,66 @@ function Index() {
     tabIndex: "0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Carl Hernek"), __jsx("h2", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Industrial Designer BFA / ", __jsx("br", {
+  }, "Frontend"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }), "Aspiring Frontend Developer"), __jsx("h3", {
+  }, "This is the latest chapter of my life. I started the Frontend Developer program at Hyper Island in august 2019 and have since been hard at work learning the ways of web development, user experience and agile working environments."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 17
     },
     __self: this
-  }, "Welcome"), __jsx("p", {
+  }, "I started this journey because I found myself becoming gradually more interested in the technology side of things in my work. Almost everything today has a digital component to it and requires specific knowledge in regards to us as humans and technology."), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 23
     },
     __self: this
-  }, "Banh mi air plant tempor pork belly health goth, hexagon PBR&B artisan mollit sint pour-over. Vape hammock sint shaman gastropub tacos. Tacos et food truck, deserunt typewriter brooklyn austin next level live-edge. Flexitarian crucifix kombucha, locavore whatever blue bottle proident woke. Four loko velit PBR&B irure. Incididunt you probably haven't heard of them vegan jean shorts lyft deep v consequat, sriracha listicle shabby chic pabst dolore leggings. Kale chips twee sartorial 90's bitters tote bag salvia. Ullamco squid bespoke lo-fi pok pok do dolore polaroid keytar."), __jsx("p", {
+  }, "Projects"), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "My First Portfolio Website",
+    projectLink: [["Github", "https://github.com/carlhernek/Website"]],
+    projectDate: "11/2019",
+    projectDesc: "The very first version of my portfolio made 100% from scratch.",
+    projectTech: ["HTML", "CSS", "Javascript"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 24
     },
     __self: this
-  }, "Laboris tilde wayfarers hot chicken actually tumblr. Marfa green juice dreamcatcher flexitarian aliqua vaporware dolore tote bag banjo. Eiusmod meditation narwhal, gochujang yr try-hard slow-carb hell of 8-bit. Hexagon ad lyft, pickled typewriter ut biodiesel chicharrones edison bulb swag yr trust fund aesthetic. Meggings typewriter ullamco four loko bespoke vegan marfa, tbh shoreditch coloring book wolf raclette tousled street art. Gentrify brooklyn you probably haven't heard of them jianbing gluten-free portland. Single-origin coffee locavore aliquip meh, 3 wolf moon succulents edison bulb tumblr beard duis venmo brunch offal minim. Aute street art health goth, enim jean shorts fingerstache nostrud. Irure crucifix man bun tousled sint."), __jsx("p", {
+  }), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "Pseudorandom",
+    projectMedia: [["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["img", "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png", "picture of logi remote"], ["vid", "https://res.cloudinary.com/carlhernek/video/upload/v1582198323/Website/vid/figma_jzryxd.mp4", "mp4"]],
+    projectLink: [["Github", "https://github.com/carlhernek/Pan-Zoom-effects"], ["Live Website", "https://pan-zoom-effects-css-js.netlify.com/"]],
+    projectDate: "11/2019",
+    projectDesc: "The very first version of my portfolio made 100% from scratch.",
+    projectTech: ["HTML", "CSS", "Javascript"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 31
     },
     __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
+  }), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 78
     },
     __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
+  }), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, "Readymade qui beard, ea put a bird on it vape taiyaki consequat viral quis lorem 90's in. Magna raclette vaporware umami distillery esse in tacos chartreuse. Gluten-free cillum man braid readymade banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok pok quis. Brooklyn you probably haven't heard of them plaid, prism keffiyeh affogato single-origin coffee farm-to-table dolore adaptogen copper mug church-key. Chillwave blog 8-bit church-key activated charcoal forage. Aliqua eu flannel fingerstache marfa vinyl. Cloud bread excepteur drinking vinegar non raw denim kale chips fashion axe 90's DIY four dollar toast id etsy aesthetic. Actually intelligentsia chartreuse lyft. Cardigan ut copper mug, reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic leggings consectetur dreamcatcher, microdosing small batch paleo beard vice."), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99
-    },
-    __self: this
-  }), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 79
     },
     __self: this
   })));
@@ -11549,14 +11792,14 @@ function Index() {
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js ***!
-  \**************************************************************************************************************************************************************/
+/***/ 2:
+/*!*************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js!./");
 
 
 /***/ }),
@@ -11572,5 +11815,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=frontend.js.map
