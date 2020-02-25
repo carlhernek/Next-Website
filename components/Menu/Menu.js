@@ -70,9 +70,9 @@ const Menu = () => {
             background-color: var(--font-color);
             color: var(--font-color-inverted);
             position: absolute;
-            left: -4rem;
+            left: -4.7rem;
             transform: rotate(-90deg);
-            font-size: 1.2 rem;
+            font-size: 1.2rem;
             padding: 0.5rem 0.5rem 1.1rem 0.5rem;
           }
 
