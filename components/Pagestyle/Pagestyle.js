@@ -100,7 +100,7 @@ export default function Pagestyle() {
 
         @media only screen and (max-width: 1024px) {
           h1:first-of-type {
-            margin: 0.5rem 0;
+            margin: 1.5rem 0;
           }
         }
 
