@@ -156,6 +156,10 @@ const Container = props => (
         margin-top: 0;
       }
 
+      .lone-child-wrap {
+        magin: 0 0 0 0.25rem;
+      }
+
       :focus {
         border: solid 3px var(--font-color);
       }
