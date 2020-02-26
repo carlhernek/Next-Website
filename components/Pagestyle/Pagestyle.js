@@ -27,6 +27,7 @@ export default function Pagestyle() {
 
         p {
           font-size: 1.2rem;
+          line-height: 1.6rem;
         }
 
         ul {
@@ -37,6 +38,7 @@ export default function Pagestyle() {
         li {
           font-size: 1.2rem;
           display: table;
+          line-height: 1.6rem;
         }
 
         a {
@@ -47,7 +49,7 @@ export default function Pagestyle() {
         .project-card {
           border-left: solid 7px var(--font-color);
           padding: 0.125rem 0.125rem 0.125rem 0.5rem;
-          margin: 0.5rem 0;
+          margin: 1rem 0;
           background-color: var(--font-color-opacity);
         }
 
@@ -89,6 +91,10 @@ export default function Pagestyle() {
           .media-container {
             flex-direction: column;
             flex-wrap: nowrap;
+          }
+
+          .project-card {
+            border-left: solid 3px var(--font-color);
           }
 
           .column-card {

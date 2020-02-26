@@ -18,7 +18,7 @@ const Container = props => (
         font-size: 2vh;
         --font-color: #1F2121;
         --font-color-inverted: #F3F3F3;
-        --font-color-opacity: #f3f3f385;
+        --font-color-opacity: #f3f3f3cb;
         --accent-color: #BD0000;
         --link-color: #3f77f7;
       }
@@ -77,7 +77,6 @@ const Container = props => (
         font-weight: 700;
         display: table;
       }
-
       
       h3,
       h4 {
@@ -162,8 +161,7 @@ const Container = props => (
 
       @media only screen and (max-width: 1024px) {
         .page {
-          padding-left: 0.5rem;
-          padding-right: 0.5rem;
+          padding: 0 3rem 0 3rem;
           margin: 0;
         }
 
