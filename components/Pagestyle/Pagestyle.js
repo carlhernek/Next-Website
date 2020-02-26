@@ -15,6 +15,7 @@ export default function Pagestyle() {
 
         h2 {
           font-size: 1.9rem;
+          margin: 1.5rem 0 0.3rem 0;
         }
 
         h3 {
