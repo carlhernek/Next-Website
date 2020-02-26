@@ -35,36 +35,6 @@ export default function Frontend() {
               "img",
               "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
               "picture of logi remote"
-            ],
-            [
-              "img",
-              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
-              "picture of logi remote"
-            ],
-            [
-              "img",
-              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
-              "picture of logi remote"
-            ],
-            [
-              "img",
-              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
-              "picture of logi remote"
-            ],
-            [
-              "img",
-              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
-              "picture of logi remote"
-            ],
-            [
-              "img",
-              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
-              "picture of logi remote"
-            ],
-            [
-              "vid",
-              "https://res.cloudinary.com/carlhernek/video/upload/v1582198323/Website/vid/figma_jzryxd.mp4",
-              "mp4"
             ]
           ]}
           projectLink={[

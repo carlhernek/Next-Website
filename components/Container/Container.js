@@ -162,7 +162,7 @@ const Container = props => (
 
       @media only screen and (max-width: 1024px) {
         .page {
-          padding: 0 3rem 0 3rem;
+          padding: 0 4.5rem 0 1.5rem;
           margin: 0;
         }
 

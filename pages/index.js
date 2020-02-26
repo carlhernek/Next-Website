@@ -8,7 +8,7 @@ export default function Index() {
       <div className="page" tabIndex="0">
         <h1>Carl Hernek</h1>
         <h2>
-          Industrial Designer BFA / <br />
+          Industrial Designer BFA <br />
           Aspiring Frontend Developer
         </h2>
         <h3>Welcome</h3>

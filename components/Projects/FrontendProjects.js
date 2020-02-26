@@ -105,11 +105,10 @@ export default function FrontendProjects({
           <h4>Links</h4>
           {links(projectLink)}
           <h4>Project Description</h4>
-          <p className="no-margin-top">
-            {projectDate}
-            <br />
-            {projectDesc}
-          </p>
+          <ul className="no-border">
+            <li>{projectDate}</li>
+            <li>{projectDesc}</li>
+          </ul>
           <h4>Made With</h4>
           <ul>{tech(projectTech)}</ul>
         </div>

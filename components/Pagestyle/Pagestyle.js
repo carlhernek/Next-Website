@@ -102,6 +102,20 @@ export default function Pagestyle() {
             margin: 0.5rem 0;
           }
         }
+
+        @media only screen and (max-width: 756px) {
+          h2 {
+            font-size: 1.5rem;
+          }
+
+          h3 {
+            font-size: 1.4rem;
+          }
+
+          h4 {
+            font-size: 1.3rem;
+          }
+        }
       `}
     </style>
   );
