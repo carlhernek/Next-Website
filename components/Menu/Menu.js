@@ -78,7 +78,6 @@ const Menu = () => {
           }
 
           nav a {
-            display: table;
             color: var(--font-color);
             padding: 0.25rem;
             font-size: 1.2 rem;
@@ -90,8 +89,8 @@ const Menu = () => {
 
           nav a::after {
             content: "";
-            display: block;
-            height: 1.5px;
+            display: table;
+            height: 1.7px;
             min-height: 1.5px;
             width: 1.25rem;
             background-color: var(--font-color);
@@ -100,8 +99,9 @@ const Menu = () => {
           }
 
           nav a:hover:after {
-            width: 100%;
-            transition: 0.5s;
+            width: 50%;
+            transition: 0.25s;
+            background-color: var(--accent-color);
           }
 
           nav a:nth-child(n + 2) {
