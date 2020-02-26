@@ -148,6 +148,11 @@ const Menu = () => {
             nav a:nth-child (1) {
               margin-top: 0.5rem;
             }
+
+            nav a:hover:after {
+              width: 0;
+              background-color: transparent;
+            }
           }
         `}
       </style>
