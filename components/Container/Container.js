@@ -19,6 +19,7 @@ const Container = props => (
         --font-color: #1F2121;
         --font-color-inverted: #F3F3F3;
         --font-color-opacity: #f3f3f3cb;
+        --font-color-opacity-alt: #4a4a4a8e;
         --accent-color: #BD0000;
         --link-color: #3f77f7;
       }

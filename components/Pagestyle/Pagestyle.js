@@ -47,8 +47,7 @@ export default function Pagestyle() {
         }
 
         .project-card {
-          border-left: solid 7px var(--font-color);
-          padding: 0.125rem 0.125rem 0.125rem 0.5rem;
+          padding: 0 0.25rem 1rem 0.25rem;
           margin: 1rem 0;
           background-color: var(--font-color-opacity);
         }
@@ -91,10 +90,6 @@ export default function Pagestyle() {
           .media-container {
             flex-direction: column;
             flex-wrap: nowrap;
-          }
-
-          .project-card {
-            border-left: solid 3px var(--font-color);
           }
 
           .column-card {
