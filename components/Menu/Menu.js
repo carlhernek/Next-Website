@@ -52,6 +52,7 @@ const Menu = () => {
             flex-direction: column;
             width: auto;
             height: 100%;
+            padding: 0.5rem 0 0 0;
           }
 
           .menu-close {
@@ -77,16 +78,34 @@ const Menu = () => {
           }
 
           nav a {
+            display: table;
             color: var(--font-color);
             padding: 0.25rem;
             font-size: 1.2 rem;
             transition: color 0.35s;
             margin-left: 0;
             z-index: 2;
+            text-decoration: none;
+          }
+
+          nav a::after {
+            content: "";
+            display: block;
+            height: 1.5px;
+            min-height: 1.5px;
+            width: 1.25rem;
+            background-color: var(--font-color);
+            margin: 0.2rem 0 0 0;
+            transition: 0.25s;
+          }
+
+          nav a:hover:after {
+            width: 100%;
+            transition: 0.5s;
           }
 
           nav a:nth-child(n + 2) {
-            margin-top: 0.5rem;
+            margin-bottom: 8px;
           }
 
           nav a:focus {
@@ -95,10 +114,8 @@ const Menu = () => {
             border: solid 3px transparent;
           }
 
-          nav a:hover {
+          nav a:focus:after {
             background-color: var(--font-color);
-            color: var(--font-color-inverted);
-            transition: color 0.35s;
           }
 
           @media only screen and (max-width: 1024px) {
@@ -107,6 +124,7 @@ const Menu = () => {
               width: 110vw;
               height: 100vh;
               background-color: var(--font-color);
+              padding: 0;
               justify-content: center;
               align-items: center;
             }
@@ -124,6 +142,7 @@ const Menu = () => {
               text-align: center;
               width: 50%;
               color: var(--font-color-inverted);
+              text-decoration: underline;
             }
 
             nav a:nth-child (1) {

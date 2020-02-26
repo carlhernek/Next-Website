@@ -16,11 +16,11 @@ const Container = props => (
     <style jsx global>{`
       :root {
         font-size: 2vh;
-        --font-color: #1F2121;
-        --font-color-inverted: #F3F3F3;
+        --font-color: #1f2121;
+        --font-color-inverted: #f3f3f3;
         --font-color-opacity: #f3f3f3cb;
         --font-color-opacity-alt: #4a4a4a8e;
-        --accent-color: #BD0000;
+        --accent-color: #bd0000;
         --link-color: #3f77f7;
       }
 
@@ -73,12 +73,13 @@ const Container = props => (
           linear-gradient(307deg, rgb(255, 255, 255), rgb(255, 255, 255));
       }
 
-      h1, h2{
+      h1,
+      h2 {
         font-family: "Montserrat";
         font-weight: 700;
         display: table;
       }
-      
+
       h3,
       h4 {
         font-family: "Montserrat";
@@ -96,7 +97,6 @@ const Container = props => (
       p,
       a {
         font-family: "Inconsolata";
-        
       }
 
       ul {
@@ -115,7 +115,7 @@ const Container = props => (
       }
 
       .page {
-        margin-left 1rem;
+        margin-left: 2rem;
         padding: 0 1.5rem 0 0;
         overflow-y: scroll;
         overflow-x: hidden;
