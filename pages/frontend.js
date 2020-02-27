@@ -21,7 +21,7 @@ export default function Frontend() {
             everything today has a digital component to it and requires specific
             knowledge in regards to us as humans and technology.
           </p>
-          <h2>Projects</h2>
+          <h2 className="h2-styled">Projects</h2>
         </div>
         <FrontendProjects
           projectTitle="My First Portfolio Website"

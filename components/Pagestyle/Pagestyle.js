@@ -2,20 +2,39 @@ export default function Pagestyle() {
   return (
     <style jsx>
       {`
-        h1:first-of-type {
-          margin: 0.5rem 0;
-          background-color: var(--font-color);
-          color: var(--font-color-inverted);
-          padding: 0.5rem 0.75rem;
+        h1 {
+          font-size: 2.5rem;
+          margin: 0 0 0.5rem 0;
+          color: var(--font-color);
         }
 
-        h1 {
-          font-size: 2.2rem;
+        h1::after {
+          position: relative;
+          display: block;
+          content: "";
+          height: 1.7rem;
+          width: 100%;
+          background-color: var(--accent-color-b);
+          left: 1rem;
+          top: -1.6rem;
+          z-index: -1;
         }
 
         h2 {
           font-size: 1.9rem;
           margin: 1.5rem 0 0.3rem 0;
+        }
+
+        .h2-styled::after {
+          position: relative;
+          display: block;
+          content: "";
+          height: 1.5rem;
+          width: 100%;
+          background-color: var(--accent-color-o);
+          left: 0.75rem;
+          top: -1.3rem;
+          z-index: -1;
         }
 
         h3 {

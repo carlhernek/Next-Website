@@ -58,12 +58,12 @@ const Menu = () => {
           .menu-close {
             display: none;
             z-index: 1;
-            color: var(--accent-color);
+            color: var(--accent-color-r);
             background-color: transparent;
             padding: 0.25rem;
             font-size: 1.2rem;
-            border-top: solid 1px var(--accent-color);
-            border-bottom: solid 1px var(--accent-color);
+            border-top: solid 1px var(--accent-color-r);
+            border-bottom: solid 1px var(--accent-color-r);
           }
 
           .menu-open {
@@ -101,7 +101,7 @@ const Menu = () => {
           nav a:hover:after {
             width: 50%;
             transition: 0.25s;
-            background-color: var(--accent-color);
+            background-color: var(--accent-color-r);
           }
 
           nav a:nth-child(n + 2) {
