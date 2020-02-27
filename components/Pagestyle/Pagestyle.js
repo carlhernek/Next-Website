@@ -135,6 +135,12 @@ export default function Pagestyle() {
           h4 {
             font-size: 1.3rem;
           }
+
+          .h2-styled::after {
+            left: 0.575rem;
+            top: -0.975rem;
+            height: 1.2rem;
+          }
         }
       `}
     </style>
