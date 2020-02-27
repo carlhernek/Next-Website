@@ -30,15 +30,15 @@ const Menu = () => {
       <button className="menu-open" onClick={() => menuToggle(toggle)}>
         Open Menu
         <Icon
-          w="1rem"
-          h="1rem"
+          w="1em"
+          h="1em"
           color="var(--font-color-inverted)"
           rotate="rotate(270)"
           loc="leftSmall"
         />
         <Icon
-          w="1rem"
-          h="1rem"
+          w="1em"
+          h="1em"
           color="var(--font-color-inverted)"
           rotate="rotate(90)"
           loc="rightSmall"
@@ -59,15 +59,15 @@ const Menu = () => {
       <button className="menu-close" onClick={() => menuToggle(toggle)}>
         Close Menu
         <Icon
-          w="1rem"
-          h="1rem"
+          w="1em"
+          h="1em"
           color="var(--accent-color-r)"
           rotate="rotate(270)"
           loc="left"
         />
         <Icon
-          w="1rem"
-          h="1rem"
+          w="1em"
+          h="1em"
           color="var(--accent-color-r)"
           rotate="rotate(90)"
           loc="right"
