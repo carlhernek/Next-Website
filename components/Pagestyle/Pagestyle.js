@@ -94,6 +94,18 @@ export default function Pagestyle() {
           display: flex;
         }
 
+        .hide {
+          display: none;
+        }
+
+        .load-button {
+          position: relative;
+          color: var(--font-color);
+          background-color: transparent;
+          padding: 0.25rem;
+          font-size: 1.2rem;
+        }
+
         @media only screen and (orientation: portrait) {
           .project-img {
             object-fit: contain;

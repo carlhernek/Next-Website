@@ -35,8 +35,13 @@ export default function Frontend() {
           projectMedia={[
             [
               "img",
-              "https://res.cloudinary.com/carlhernek/image/upload/v1582198505/Website/Img/logiLowerRes_yfulhi.png",
-              "picture of logi remote"
+              "https://res.cloudinary.com/carlhernek/image/upload/q_70,w_512/v1582198505/Website/Img/logi_zqrfef.png",
+              "picture of logi remote",
+              [
+                "https://res.cloudinary.com/carlhernek/image/upload/q_70,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w",
+                "https://res.cloudinary.com/carlhernek/image/upload/q_70,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w",
+                "https://res.cloudinary.com/carlhernek/image/upload/q_70,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"
+              ]
             ]
           ]}
           projectLink={[
