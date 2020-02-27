@@ -18,11 +18,12 @@ const Container = props => (
         font-size: 2vh;
         --font-color: #1f2121;
         --font-color-inverted: #f3f3f3;
-        --font-color-opacity: #f3f3f3cb;
+        --font-color-opacity: #f5f5f5d8;
         --font-color-opacity-alt: #4a4a4a8e;
         --accent-color-r: hsl(0, 93%, 73%);
         --accent-color-b: hsla(177, 100%, 50%, 0.2);
         --accent-color-o: hsla(39, 100%, 69%, 0.7);
+        --accent-color-g: hsla(80, 77%, 67%, 0.2);
         --link-color: #3f77f7;
       }
 

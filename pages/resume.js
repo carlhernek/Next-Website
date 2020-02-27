@@ -14,6 +14,19 @@ export default function Resume() {
             <li>
               <a href="mailto:hello@carlhernek.se">hello@carlhernek.se</a>
             </li>
+            <li>
+              <a href="https://github.com/carlhernek" target="_blank">
+                Github
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://se.linkedin.com/in/carl-hernek-95b05595"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
           </ul>
         </div>
         <div className="project-card no-border">

@@ -67,6 +67,7 @@ export default function Pagestyle() {
         }
 
         .project-card {
+          position: relative;
           padding: 0 0.25rem 1rem 0.25rem;
           margin: 1rem 0;
           background-color: var(--font-color-opacity);

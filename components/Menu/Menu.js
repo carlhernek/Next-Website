@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import Icon from "../Icon/Icon";
 
 const Menu = () => {
   const [toggle, setToggle] = useState(false);
@@ -28,8 +29,21 @@ const Menu = () => {
     <nav className="menu" style={menuStyle(toggle)}>
       <button className="menu-open" onClick={() => menuToggle(toggle)}>
         Open Menu
+        <Icon
+          w="1rem"
+          h="1rem"
+          color="var(--font-color-inverted)"
+          rotate="rotate(270)"
+          loc="leftSmall"
+        />
+        <Icon
+          w="1rem"
+          h="1rem"
+          color="var(--font-color-inverted)"
+          rotate="rotate(90)"
+          loc="rightSmall"
+        />
       </button>
-
       <Link href="/">
         <a>Home</a>
       </Link>
@@ -44,6 +58,20 @@ const Menu = () => {
       </Link>
       <button className="menu-close" onClick={() => menuToggle(toggle)}>
         Close Menu
+        <Icon
+          w="1rem"
+          h="1rem"
+          color="var(--accent-color-r)"
+          rotate="rotate(270)"
+          loc="left"
+        />
+        <Icon
+          w="1rem"
+          h="1rem"
+          color="var(--accent-color-r)"
+          rotate="rotate(90)"
+          loc="right"
+        />
       </button>
 
       <style jsx>
@@ -54,17 +82,18 @@ const Menu = () => {
             width: auto;
             height: 100%;
             padding: 0.5rem 0 0 0;
+            z-index: 5;
           }
 
           .menu-close {
+            position: relative;
             display: none;
             z-index: 1;
             color: var(--accent-color-r);
             background-color: transparent;
             padding: 0.25rem;
             font-size: 1.2rem;
-            border-top: solid 1px var(--accent-color-r);
-            border-bottom: solid 1px var(--accent-color-r);
+            margin: 0 auto;
           }
 
           .menu-open {
@@ -72,10 +101,10 @@ const Menu = () => {
             background-color: var(--font-color);
             color: var(--font-color-inverted);
             position: absolute;
-            left: -4.7rem;
+            left: -5rem;
             transform: rotate(-90deg);
             font-size: 1.2rem;
-            padding: 0.5rem 0.5rem 1.1rem 0.5rem;
+            padding: 0.5rem 0.65rem 1.1rem 0.65rem;
           }
 
           nav a {
@@ -148,6 +177,11 @@ const Menu = () => {
 
             nav a:nth-child (1) {
               margin-top: 0.5rem;
+            }
+
+            nav a::after {
+              width: 0;
+              background-color: transparent;
             }
 
             nav a:hover:after {
