@@ -45,6 +45,7 @@ const Menu = () => {
       <button className="menu-close" onClick={() => menuToggle(toggle)}>
         Close Menu
       </button>
+
       <style jsx>
         {`
           .menu {

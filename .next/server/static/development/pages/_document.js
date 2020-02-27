@@ -1086,7 +1086,7 @@ class CustomDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.
 
   render() {
     return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
-      lang: "en",
+      lang: "en-US",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11

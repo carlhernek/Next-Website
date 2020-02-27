@@ -20,7 +20,7 @@ const Container = props => (
         --font-color-inverted: #f3f3f3;
         --font-color-opacity: #f3f3f3cb;
         --font-color-opacity-alt: #4a4a4a8e;
-        --accent-color-r: #bd0000;
+        --accent-color-r: hsl(0, 93%, 73%);
         --accent-color-b: hsla(177, 100%, 50%, 0.2);
         --accent-color-o: hsla(39, 100%, 69%, 0.7);
         --link-color: #3f77f7;
