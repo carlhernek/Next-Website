@@ -103,6 +103,7 @@ export default function Pagestyle() {
           color: var(--font-color);
           background-color: transparent;
           padding: 0.25rem;
+          margin: 0 0 1rem 0.5rem;
           font-size: 1.2rem;
         }
 

@@ -84,9 +84,7 @@ const media = (param, load) => {
         }
       }
     });
-    if (!load) {
-      return <div className="hide">{mediaContainer}</div>;
-    } else return <div className="media-container">{mediaContainer}</div>;
+    if (load) return <div className="media-container">{mediaContainer}</div>;
   }
 };
 
@@ -99,43 +97,64 @@ export default function FrontendProjects({
   projectTech // Takes ["string","string"]
 }) {
   const [load, setLoad] = useState(false);
-  return (
-    <div className="project-card no-border">
-      <h3>{projectTitle}</h3>
-      <div className="no-border">
+  if (projectMedia) {
+    return (
+      <div className="project-card no-border">
+        <h3>{projectTitle}</h3>
         <div className="no-border">
-          <h4>Links</h4>
-          {links(projectLink)}
-          <h4>Project Description</h4>
-          <ul className="no-border">
-            <li>{projectDate}</li>
-            <li>{projectDesc}</li>
-          </ul>
-          <h4>Made With</h4>
-          <ul>{tech(projectTech)}</ul>
-        </div>
-        <div>
-          <h4>Media</h4>
-          <button className="load-button" onClick={() => setLoad(true)}>
-            Load Media
-            <Icon
-              w="1em"
-              h="1em"
-              color="var(--font-color)"
-              rotate="rotate(270)"
-              loc="left"
-            />
-            <Icon
-              w="1em"
-              h="1em"
-              color="var(--font-color)"
-              rotate="rotate(90)"
-              loc="right"
-            />
-          </button>
-          {media(projectMedia, load)}
+          <div className="no-border">
+            <h4>Links</h4>
+            {links(projectLink)}
+            <h4>Project Description</h4>
+            <ul className="no-border">
+              <li>{projectDate}</li>
+              <li>{projectDesc}</li>
+            </ul>
+            <h4>Made With</h4>
+            <ul>{tech(projectTech)}</ul>
+          </div>
+          <div>
+            <h4>Media</h4>
+            <button className="load-button" onClick={() => setLoad(true)}>
+              Load Media
+              <Icon
+                w="1em"
+                h="1em"
+                color="var(--font-color)"
+                rotate="rotate(270)"
+                loc="left"
+              />
+              <Icon
+                w="1em"
+                h="1em"
+                color="var(--font-color)"
+                rotate="rotate(90)"
+                loc="right"
+              />
+            </button>
+            {media(projectMedia, load)}
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="project-card no-border">
+        <h3>{projectTitle}</h3>
+        <div className="no-border">
+          <div className="no-border">
+            <h4>Links</h4>
+            {links(projectLink)}
+            <h4>Project Description</h4>
+            <ul className="no-border">
+              <li>{projectDate}</li>
+              <li>{projectDesc}</li>
+            </ul>
+            <h4>Made With</h4>
+            <ul>{tech(projectTech)}</ul>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
