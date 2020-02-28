@@ -5,11 +5,19 @@ import Icon from "../Icon/Icon";
 const Menu = () => {
   const [toggle, setToggle] = useState(false);
 
+  const divClass = e => {
+    if (!e) {
+      return "link-container-toggled";
+    } else {
+      return "link-container";
+    }
+  };
+
   const menuStyle = e => {
     if (!e) {
       return {
         left: "100vw",
-        transition: " left .5s"
+        transition: "left .5s"
       };
     } else {
       return {
@@ -44,36 +52,37 @@ const Menu = () => {
           loc="rightSmall"
         />
       </button>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-      <Link href="/frontend">
-        <a>Frontend</a>
-      </Link>
-      <Link href="/design">
-        <a>Design</a>
-      </Link>
-      <Link href="/resume">
-        <a>Resumé</a>
-      </Link>
-      <button className="menu-close" onClick={() => menuToggle(toggle)}>
-        Close Menu
-        <Icon
-          w="1em"
-          h="1em"
-          color="var(--accent-color-r)"
-          rotate="rotate(270)"
-          loc="left"
-        />
-        <Icon
-          w="1em"
-          h="1em"
-          color="var(--accent-color-r)"
-          rotate="rotate(90)"
-          loc="right"
-        />
-      </button>
-
+      <div className={divClass(toggle)}>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+        <Link href="/frontend">
+          <a>Frontend</a>
+        </Link>
+        <Link href="/design">
+          <a>Design</a>
+        </Link>
+        <Link href="/resume">
+          <a>Resumé</a>
+        </Link>
+        <button className="menu-close" onClick={() => menuToggle(toggle)}>
+          Close Menu
+          <Icon
+            w="1em"
+            h="1em"
+            color="var(--accent-color-r)"
+            rotate="rotate(270)"
+            loc="left"
+          />
+          <Icon
+            w="1em"
+            h="1em"
+            color="var(--accent-color-r)"
+            rotate="rotate(90)"
+            loc="right"
+          />
+        </button>
+      </div>
       <style jsx>
         {`
           .menu {
@@ -83,6 +92,20 @@ const Menu = () => {
             height: 100%;
             padding: 0.5rem 0 0 0;
             z-index: 5;
+          }
+
+          .link-container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .link-container-toggled {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
           }
 
           .menu-close {
@@ -159,6 +182,20 @@ const Menu = () => {
               align-items: center;
             }
 
+            .link-container {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .link-container-toggled {
+              display: none;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
             .menu-close {
               display: block;
               margin-top: 1.5rem;
@@ -187,6 +224,11 @@ const Menu = () => {
             nav a:hover:after {
               width: 0;
               background-color: transparent;
+            }
+
+            nav a:focus .menu {
+              left: -5vw;
+              transition: left 0.5s;
             }
           }
         `}

@@ -66,6 +66,14 @@ export default function Pagestyle() {
           color: var(--link-color);
         }
 
+        button:focus svg {
+          display: none;
+        }
+
+        button:hover svg {
+          display: none;
+        }
+
         .project-card {
           position: relative;
           padding: 0 0.25rem 1rem 0.25rem;
@@ -105,6 +113,19 @@ export default function Pagestyle() {
           padding: 0.25rem;
           margin: 0 0 1rem 0.5rem;
           font-size: 1.2rem;
+          cursor: pointer;
+        }
+
+        .load-button:focus {
+          border: solid 3px transparent;
+          background-color: var(--font-color);
+          color: var(--font-color-inverted);
+        }
+
+        .load-button:hover {
+          border: solid 3px transparent;
+          background-color: var(--font-color);
+          color: var(--font-color-inverted);
         }
 
         @media only screen and (orientation: portrait) {
