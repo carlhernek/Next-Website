@@ -74,6 +74,28 @@ export default function DesignProjects(props) {
           color: var(--font-color-inverted);
         }
 
+        .close-modal {
+          position: fixed;
+          color: var(--font-color);
+          background-color: var(--accent-color-b);
+          padding: 0.25rem;
+          margin: 0 0 1rem 0.5rem;
+          font-size: 1.2rem;
+          cursor: pointer;
+        }
+
+        .close-modal:focus {
+          border: solid 3px transparent;
+          background-color: var(--font-color);
+          color: var(--font-color-inverted);
+        }
+
+        .close-modal:hover {
+          border: solid 3px transparent;
+          background-color: var(--font-color);
+          color: var(--font-color-inverted);
+        }
+
         .design-project-thumbnail {
           height: 8rem;
         }
