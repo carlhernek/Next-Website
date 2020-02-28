@@ -164,7 +164,7 @@ const Container = props => (
       }
 
       .lone-child-wrap {
-        magin: 0 0 0 0.25rem;
+        margin: 0 0 0 0.25rem;
       }
 
       :focus {

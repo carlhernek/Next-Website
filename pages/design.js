@@ -1,6 +1,7 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
 import Footer from "../components/Footer/Footer";
+import DesignProjects from "../components/Projects/DesignProjects";
 
 export default function Design() {
   return (
@@ -8,97 +9,27 @@ export default function Design() {
       <div className="page" tabIndex="0">
         <h1>Design</h1>
         <div className="lone-child-wrap">
-          <h2>Design</h2>
-          <h3>Design</h3>
           <p>
-            Banh mi air plant tempor pork belly health goth, hexagon PBR&B
-            artisan mollit sint pour-over. Vape hammock sint shaman gastropub
-            tacos. Tacos et food truck, deserunt typewriter brooklyn austin next
-            level live-edge. Flexitarian crucifix kombucha, locavore whatever
-            blue bottle proident woke. Four loko velit PBR&B irure. Incididunt
-            you probably haven't heard of them vegan jean shorts lyft deep v
-            consequat, sriracha listicle shabby chic pabst dolore leggings. Kale
-            chips twee sartorial 90's bitters tote bag salvia. Ullamco squid
-            bespoke lo-fi pok pok do dolore polaroid keytar.
+            I enjoy making beautiful things and to me that beauty can take many
+            shapes, be it well structured code, a satisfying css animation on a
+            button hover or an aesthetically pleasing physical product.
           </p>
           <p>
-            Laboris tilde wayfarers hot chicken actually tumblr. Marfa green
-            juice dreamcatcher flexitarian aliqua vaporware dolore tote bag
-            banjo. Eiusmod meditation narwhal, gochujang yr try-hard slow-carb
-            hell of 8-bit. Hexagon ad lyft, pickled typewriter ut biodiesel
-            chicharrones edison bulb swag yr trust fund aesthetic. Meggings
-            typewriter ullamco four loko bespoke vegan marfa, tbh shoreditch
-            coloring book wolf raclette tousled street art. Gentrify brooklyn
-            you probably haven't heard of them jianbing gluten-free portland.
-            Single-origin coffee locavore aliquip meh, 3 wolf moon succulents
-            edison bulb tumblr beard duis venmo brunch offal minim. Aute street
-            art health goth, enim jean shorts fingerstache nostrud. Irure
-            crucifix man bun tousled sint.
+            I realised that similarly to when you create something physical when
+            you have to be aware of the constraints of production, that same
+            thing is true for when you create something digital. To a designer
+            it is important that the resulting product, be it digital or
+            physical, holds true to the intended design that was passed on to
+            production or development.
           </p>
           <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
+            This will only happen if the designer has the knowledge to produce a
+            design that is feasible and easily communicated.
           </p>
-          <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
-          </p>
-          <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
-          </p>
-          <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
-          </p>
+          <h2 className="h2-styled">UX / UI</h2>
+          <DesignProjects />
+          <h2 className="h2-styled">CAD Showreel</h2>
+          <h2 className="h2-styled">UID Design Portfolio</h2>
         </div>
         <Pagestyle />
         <Footer />

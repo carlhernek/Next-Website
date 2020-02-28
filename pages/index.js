@@ -12,7 +12,6 @@ export default function Index() {
             Industrial Designer BFA <br />
             Aspiring Frontend Developer
           </h2>
-          <h3>Welcome</h3>
           <p>
             Banh mi air plant tempor pork belly health goth, hexagon PBR&B
             artisan mollit sint pour-over. Vape hammock sint shaman gastropub
