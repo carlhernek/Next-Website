@@ -4,8 +4,12 @@ import Head from "next/head";
 const Container = props => (
   <div className="container">
     <Head>
-      <title>It just works</title>
+      <title>Carl Hernek - Frontend Dev & Designer</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta
+        name="description"
+        content="Welcome to Carl Hernek's portfolio website. Industrial Designer, UX Designer and Frontend Developer."
+      />
       <link
         href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat:500,600,700&display=swap"
         rel="stylesheet"
