@@ -5,28 +5,35 @@ export default function DesignProjects(props) {
   const [toggle, setToggle] = useState("design-project-modal-hidden");
 
   return (
-    <div className="project-card no-border">
-      <button
-        className="open-modal"
-        onClick={() => setToggle("design-project-modal")}
-      >
-        Show Project
-        <Icon
-          w="1em"
-          h="1em"
-          color="var(--font-color)"
-          rotate="rotate(270)"
-          loc="left"
-        />
-        <Icon
-          w="1em"
-          h="1em"
-          color="var(--font-color)"
-          rotate="rotate(90)"
-          loc="right"
-        />
-      </button>
-      <div className="design-project-thumbnail">asd</div>
+    <div className="no-border">
+      <div className="design-project-thumbnail">
+        <button
+          className="open-modal"
+          onClick={() => setToggle("design-project-modal")}
+        >
+          Show Project
+          <Icon
+            w="1em"
+            h="1em"
+            color="var(--font-color)"
+            rotate="rotate(270)"
+            loc="left"
+          />
+          <Icon
+            w="1em"
+            h="1em"
+            color="var(--font-color)"
+            rotate="rotate(90)"
+            loc="right"
+          />
+        </button>
+        <img
+          className="white-border"
+          src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_70,w_512/v1582198505/Website/Img/logi_zqrfef.png"
+          alt=""
+          srcSet=""
+        ></img>
+      </div>
       <div className={toggle}>
         <button
           className="close-modal"
@@ -53,13 +60,15 @@ export default function DesignProjects(props) {
       </div>
       <style jsx>{`
         .open-modal {
-          position: relative;
+          position: absolute;
           color: var(--font-color);
           background-color: var(--accent-color-b);
           padding: 0.25rem;
           margin: 0 0 1rem 0.5rem;
           font-size: 1.2rem;
           cursor: pointer;
+          bottom: 1rem;
+          right: 1rem;
         }
 
         .open-modal:focus {
@@ -97,7 +106,17 @@ export default function DesignProjects(props) {
         }
 
         .design-project-thumbnail {
-          height: 8rem;
+          position: relative;
+          width: 18rem;
+          height: 18rem;
+          margin: 1rem;
+        }
+
+        .design-project-thumbnail img {
+          object-fit: cover;
+          width: 18rem;
+          height: 18rem;
+          box-shadow: 0.5rem 0.5rem 0px 0px var(--accent-color-r);
         }
 
         .design-project-modal {
@@ -113,6 +132,20 @@ export default function DesignProjects(props) {
 
         .design-project-modal-hidden {
           display: none;
+        }
+
+        @media only screen and (orientation: portrait) {
+          .design-project-thumbnail {
+            width: 90%;
+            height: auto;
+            min-height: 5rem;
+          }
+
+          .design-project-thumbnail img {
+            width: 90%;
+            height: auto;
+            min-height: 5rem;
+          }
         }
 
         @media only screen and (max-width: 1024px) {

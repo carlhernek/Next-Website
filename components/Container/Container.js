@@ -159,6 +159,10 @@ const Container = props => (
         border: none;
       }
 
+      .white-border {
+        border: solid 3px white;
+      }
+
       .no-margin-top {
         margin-top: 0;
       }

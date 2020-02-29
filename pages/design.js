@@ -27,7 +27,10 @@ export default function Design() {
             design that is feasible and easily communicated.
           </p>
           <h2 className="h2-styled">UX / UI</h2>
-          <DesignProjects />
+          <div className="project-card column-card no-border">
+            <DesignProjects />
+            <DesignProjects />
+          </div>
           <h2 className="h2-styled">CAD Showreel</h2>
           <h2 className="h2-styled">UID Design Portfolio</h2>
         </div>
