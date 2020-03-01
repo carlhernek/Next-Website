@@ -1,109 +1,62 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
-import Footer from "../components/Footer/Footer";
 
 export default function Index() {
   return (
     <Container>
       <div className="page" tabIndex="0">
-        <h1>Carl Hernek</h1>
+        <h1 className="h1-styled">Carl Hernek</h1>
         <div className="lone-child-wrap">
-          <h2>
+          <h4>
             Industrial Designer BFA <br />
             Aspiring Frontend Developer
-          </h2>
+          </h4>
           <p>
-            Banh mi air plant tempor pork belly health goth, hexagon PBR&B
-            artisan mollit sint pour-over. Vape hammock sint shaman gastropub
-            tacos. Tacos et food truck, deserunt typewriter brooklyn austin next
-            level live-edge. Flexitarian crucifix kombucha, locavore whatever
-            blue bottle proident woke. Four loko velit PBR&B irure. Incididunt
-            you probably haven't heard of them vegan jean shorts lyft deep v
-            consequat, sriracha listicle shabby chic pabst dolore leggings. Kale
-            chips twee sartorial 90's bitters tote bag salvia. Ullamco squid
-            bespoke lo-fi pok pok do dolore polaroid keytar.
+            I am currently looking for Frontend and/or UX/UI internships for the{" "}
+            <b>Autumn of 2020</b> or <b>Spring 2021!</b>
+          </p>
+          <h2 className="h2-styled">About me</h2>
+          <p>
+            Ever the curious designer I ventured into the unknown land of code
+            and found that I enjoyed it and so far I have found the combined kit
+            of being both a developer and a designer to be very powerful.
           </p>
           <p>
-            Laboris tilde wayfarers hot chicken actually tumblr. Marfa green
-            juice dreamcatcher flexitarian aliqua vaporware dolore tote bag
-            banjo. Eiusmod meditation narwhal, gochujang yr try-hard slow-carb
-            hell of 8-bit. Hexagon ad lyft, pickled typewriter ut biodiesel
-            chicharrones edison bulb swag yr trust fund aesthetic. Meggings
-            typewriter ullamco four loko bespoke vegan marfa, tbh shoreditch
-            coloring book wolf raclette tousled street art. Gentrify brooklyn
-            you probably haven't heard of them jianbing gluten-free portland.
-            Single-origin coffee locavore aliquip meh, 3 wolf moon succulents
-            edison bulb tumblr beard duis venmo brunch offal minim. Aute street
-            art health goth, enim jean shorts fingerstache nostrud. Irure
-            crucifix man bun tousled sint.
+            The purpose of this website is not only to contain work samples and
+            resumés but also to provide an opportunity for me to learn something
+            new along the way of building it.
           </p>
           <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
+            Now you might think "Wow, this is a lot of text to read" and I
+            agree, so please browse the other sections of the site, I'm sure
+            there are some nice pictures here somewhere.
           </p>
-          <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
-          </p>
-          <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
-          </p>
-          <p>
-            Readymade qui beard, ea put a bird on it vape taiyaki consequat
-            viral quis lorem 90's in. Magna raclette vaporware umami distillery
-            esse in tacos chartreuse. Gluten-free cillum man braid readymade
-            banh mi XOXO. Enamel pin craft beer coloring book, fam normcore pok
-            pok quis. Brooklyn you probably haven't heard of them plaid, prism
-            keffiyeh affogato single-origin coffee farm-to-table dolore
-            adaptogen copper mug church-key. Chillwave blog 8-bit church-key
-            activated charcoal forage. Aliqua eu flannel fingerstache marfa
-            vinyl. Cloud bread excepteur drinking vinegar non raw denim kale
-            chips fashion axe 90's DIY four dollar toast id etsy aesthetic.
-            Actually intelligentsia chartreuse lyft. Cardigan ut copper mug,
-            reprehenderit dolore cloud bread bushwick +1 pickled. Aesthetic
-            leggings consectetur dreamcatcher, microdosing small batch paleo
-            beard vice.
-          </p>
+          <ul>
+            <li>
+              Find me via{" "}
+              <a
+                target="_blank"
+                href="https://se.linkedin.com/in/carl-hernek-95b05595"
+              >
+                Linkedin
+              </a>{" "}
+              or check out my{" "}
+              <a target="_blank" href="https://github.com/carlhernek">
+                Github.
+              </a>
+            </li>
+            <li>
+              This website was built with Next.js, check out the code{" "}
+              <a
+                target="_blank"
+                href="https://github.com/carlhernek/Next-website"
+              >
+                here.
+              </a>
+            </li>
+          </ul>
         </div>
         <Pagestyle />
-        <Footer />
       </div>
     </Container>
   );

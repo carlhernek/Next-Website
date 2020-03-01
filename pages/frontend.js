@@ -1,13 +1,12 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
 import FrontendProjects from "../components/Projects/FrontendProjects";
-import Footer from "../components/Footer/Footer";
 
 export default function Frontend() {
   return (
     <Container>
       <div className="page" tabIndex="0">
-        <h1>Frontend</h1>
+        <h1 className="h1-styled">Frontend</h1>
         <div className="lone-child-wrap">
           <p>
             This is the latest chapter of my life. I started the Frontend
@@ -89,7 +88,6 @@ export default function Frontend() {
         /> */}
 
         <Pagestyle />
-        <Footer />
       </div>
     </Container>
   );

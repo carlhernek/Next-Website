@@ -4,11 +4,11 @@ export default function Pagestyle() {
       {`
         h1 {
           font-size: 2.5rem;
-          margin: 0 0 0.5rem 0;
+          margin: 0;
           color: var(--font-color);
         }
 
-        h1::after {
+        .h1-styled::after {
           position: relative;
           display: block;
           content: "";
@@ -48,6 +48,7 @@ export default function Pagestyle() {
         p {
           font-size: 1.2rem;
           line-height: 1.6rem;
+          margin: 0.2rem 0 0.8rem 0;
         }
 
         ul {
@@ -93,6 +94,35 @@ export default function Pagestyle() {
           margin: 0 0.75rem 0.75rem 0;
         }
 
+        .project-banner {
+          object-fit: cover;
+          width: 100%;
+          height: 20rem;
+          z-index: -5;
+        }
+
+        .project-return {
+          display: table;
+          padding: 0.5rem;
+          margin: 0.7rem;
+          background-color: var(--accent-color-b);
+          color: var(--font-color);
+        }
+
+        .project-return:hover {
+          color: var(--font-color-inverted);
+          background-color: var(--font-color);
+        }
+
+        .project-return:focus {
+          color: var(--font-color-inverted);
+          background-color: var(--font-color);
+        }
+
+        .project-heading {
+          margin: 0;
+        }
+
         .media-container {
           display: flex;
           flex-wrap: wrap;
@@ -136,6 +166,12 @@ export default function Pagestyle() {
             margin: 0 0 0.75rem 0;
           }
 
+          .project-banner {
+            object-fit: contain;
+            width: 100%;
+            height: auto;
+          }
+
           .project-vid {
             width: 100%;
             min-width: 100%;
@@ -153,8 +189,8 @@ export default function Pagestyle() {
         }
 
         @media only screen and (max-width: 1024px) {
-          h1:first-of-type {
-            margin: 1.5rem 0;
+          h1 {
+            margin: 1.5rem 0 0 0;
           }
         }
 

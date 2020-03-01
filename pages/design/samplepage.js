@@ -1,12 +1,22 @@
 import Container from "../../components/Container/Container";
 import Pagestyle from "../../components/Pagestyle/Pagestyle";
-import Footer from "../../components/Footer/Footer";
+import Link from "next/link";
 
 export default function samplepage() {
   return (
     <Container>
-      <div className="page" tabIndex="0">
-        <h1>Carl Hernek</h1>
+      <div className="page relative" tabIndex="0">
+        <h1 className="project-heading h1-styled">Project Title</h1>
+
+        <img
+          className="project-banner"
+          alt="banner"
+          src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png"
+          srcSet="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_70,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w,
+          https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_70,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w,
+          https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_70,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"
+        ></img>
+
         <div className="lone-child-wrap">
           <h2>
             Industrial Designer BFA <br />
@@ -101,9 +111,11 @@ export default function samplepage() {
             leggings consectetur dreamcatcher, microdosing small batch paleo
             beard vice.
           </p>
+          <Link href="/design">
+            <a className="project-return">Back to Design</a>
+          </Link>
         </div>
         <Pagestyle />
-        <Footer />
       </div>
     </Container>
   );

@@ -1,12 +1,11 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
-import Footer from "../components/Footer/Footer";
 
 export default function Resume() {
   return (
     <Container>
       <div className="page" tabIndex="0">
-        <h1>Resumé</h1>
+        <h1 className="h1-styled">Resumé</h1>
         <div className="project-card no-border">
           <h3>Contact</h3>
           <ul className="no-border">
@@ -24,7 +23,7 @@ export default function Resume() {
                 href="https://se.linkedin.com/in/carl-hernek-95b05595"
                 target="_blank"
               >
-                LinkedIn
+                Linkedin
               </a>
             </li>
           </ul>
@@ -107,7 +106,6 @@ export default function Resume() {
         </div>
 
         <Pagestyle />
-        <Footer />
       </div>
     </Container>
   );

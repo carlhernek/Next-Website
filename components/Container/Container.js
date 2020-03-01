@@ -93,7 +93,7 @@ const Container = props => (
         font-family: "Montserrat";
         font-weight: 600;
         display: table;
-        margin: 1.2rem 0 0.3rem 0;
+        margin: 0.5rem 0 0.3rem 0;
       }
 
       h4 {
@@ -170,6 +170,10 @@ const Container = props => (
 
       .lone-child-wrap {
         margin: 0 0 0 0.25rem;
+      }
+
+      .relative {
+        position: relative;
       }
 
       :focus {

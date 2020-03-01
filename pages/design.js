@@ -1,6 +1,5 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
-import Footer from "../components/Footer/Footer";
 import DesignProjects from "../components/Projects/DesignProjects";
 import Link from "next/link";
 
@@ -8,12 +7,12 @@ export default function Design() {
   return (
     <Container>
       <div className="page" tabIndex="0">
-        <h1>Design</h1>
+        <h1 className="h1-styled">Design</h1>
         <div className="lone-child-wrap">
           <p>
             I enjoy making beautiful things and to me that beauty can take many
-            shapes, be it well structured code, a satisfying css animation on a
-            button hover or an aesthetically pleasing physical product.
+            shapes, be it well structured code, a satisfying css animation or an
+            aesthetically pleasing physical product.
           </p>
           <p>
             I realised that similarly to when you create something physical when
@@ -43,14 +42,25 @@ export default function Design() {
                 />
               </a>
             </Link>
-
-            <DesignProjects />
+            <Link href="/design/samplepage">
+              <a>
+                <DesignProjects
+                  title="SFD Mobile Web"
+                  alt="Picture of figma workspace"
+                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png"
+                  srcSet={[
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"
+                  ]}
+                />
+              </a>
+            </Link>
           </div>
           <h2 className="h2-styled">CAD Showreel</h2>
-          <h2 className="h2-styled">UID Design Portfolio</h2>
+          <h2 className="h2-styled">UID Portfolio</h2>
         </div>
         <Pagestyle />
-        <Footer />
       </div>
     </Container>
   );
