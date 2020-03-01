@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\design.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\frontend.js"],{
 
 /***/ "./components/Container/Container.js":
 /*!*******************************************!*\
@@ -405,64 +405,377 @@ function Pagestyle() {
 
 /***/ }),
 
-/***/ "./components/Projects/DesignProjects.js":
-/*!***********************************************!*\
-  !*** ./components/Projects/DesignProjects.js ***!
-  \***********************************************/
+/***/ "./components/Projects/FrontendProjects.js":
+/*!*************************************************!*\
+  !*** ./components/Projects/FrontendProjects.js ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return DesignProjects; });
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\components\\Projects\\DesignProjects.js";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FrontendProjects; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Icon_Icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Icon/Icon */ "./components/Icon/Icon.js");
+var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\components\\Projects\\FrontendProjects.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-function DesignProjects(_ref) {
-  var title = _ref.title,
-      src = _ref.src,
-      alt = _ref.alt,
-      srcSet = _ref.srcSet;
-  return __jsx("div", {
-    className: "jsx-2328551810" + " " + "no-border",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-2328551810" + " " + "design-project-thumbnail",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, __jsx("img", {
-    alt: alt,
-    src: src,
-    srcSet: srcSet,
-    className: "jsx-2328551810" + " " + "no-border",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }), __jsx("h3", {
-    className: "jsx-2328551810" + " " + "h3-thumb",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, title)), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2328551810",
-    __self: this
-  }, ".design-project-thumbnail.jsx-2328551810{position:relative;width:18rem;height:18rem;margin:1rem;}.design-project-thumbnail.jsx-2328551810 img.jsx-2328551810{object-fit:cover;width:18rem;height:18rem;box-shadow:0.5rem 0.5rem 0px 0px var(--accent-color-r);-webkit-transition:box-shadow 0.15s;transition:box-shadow 0.15s;}.h3-thumb.jsx-2328551810{color:var(--font-color);background-color:var(--accent-color-r-opacity);padding:0.5rem;position:absolute;top:-1.7rem;left:-0.5rem;-webkit-transition:background-color 0.15s;transition:background-color 0.15s;}.design-project-thumbnail.jsx-2328551810:hover .h3-thumb.jsx-2328551810{background-color:var(--accent-color-g);-webkit-transition:background-color 0.15s;transition:background-color 0.15s;}.design-project-thumbnail.jsx-2328551810:hover img.jsx-2328551810{box-shadow:0.4rem 0.4rem 0px 0px var(--accent-color-g);-webkit-transition:box-shadow 0.15s;transition:box-shadow 0.15s;}@media only screen and (orientation:portrait){.design-project-thumbnail.jsx-2328551810{width:90%;height:auto;min-height:5rem;}.design-project-thumbnail.jsx-2328551810 img.jsx-2328551810{width:90%;height:auto;min-height:5rem;}}@media only screen and (max-width:1024px){.h3-thumb.jsx-2328551810{font-size:1.3rem;}}@media only screen and (max-width:726px){.h3-thumb.jsx-2328551810{font-size:1.1rem;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxEcm9wYm94XFxDcmVhdGl2ZSBDbG91ZCBGaWxlc1xcX0hJXFxfUHJvamVjdHNcXE5leHQtV2Vic2l0ZVxcY29tcG9uZW50c1xcUHJvamVjdHNcXERlc2lnblByb2plY3RzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFrQixBQUc2QixBQU9ELEFBUU8sQUFVZSxBQUtnQixBQU0zQyxBQU1BLEFBUU8sQUFNQSxVQW5CTCxBQU1BLE9BbkNGLEFBMkNaLEFBTUEsQ0F4RFksSUFxQ00sQUFNQSxFQTVCNkIsS0FQbEMsQ0FQQSxRQXFDYixBQU1BLENBbkJrQyxHQWhCcUIsQ0FQM0MsWUFDZCxBQTJCOEIsZ0JBZGIsZUFDRyxXQVBVLE9BUWhCLFdBUWQsQ0FQZSxHQVlmLFVBWG9DLGdDQVRwQyw0Q0FVQSIsImZpbGUiOiJEOlxcRHJvcGJveFxcQ3JlYXRpdmUgQ2xvdWQgRmlsZXNcXF9ISVxcX1Byb2plY3RzXFxOZXh0LVdlYnNpdGVcXGNvbXBvbmVudHNcXFByb2plY3RzXFxEZXNpZ25Qcm9qZWN0cy5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERlc2lnblByb2plY3RzKHsgdGl0bGUsIHNyYywgYWx0LCBzcmNTZXQgfSkge1xyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT1cIm5vLWJvcmRlclwiPlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImRlc2lnbi1wcm9qZWN0LXRodW1ibmFpbFwiPlxyXG4gICAgICAgIDxpbWcgY2xhc3NOYW1lPVwibm8tYm9yZGVyXCIgYWx0PXthbHR9IHNyYz17c3JjfSBzcmNTZXQ9e3NyY1NldH0+PC9pbWc+XHJcbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cImgzLXRodW1iXCI+e3RpdGxlfTwvaDM+XHJcbiAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIC5kZXNpZ24tcHJvamVjdC10aHVtYm5haWwge1xyXG4gICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICAgICAgd2lkdGg6IDE4cmVtO1xyXG4gICAgICAgICAgaGVpZ2h0OiAxOHJlbTtcclxuICAgICAgICAgIG1hcmdpbjogMXJlbTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5kZXNpZ24tcHJvamVjdC10aHVtYm5haWwgaW1nIHtcclxuICAgICAgICAgIG9iamVjdC1maXQ6IGNvdmVyO1xyXG4gICAgICAgICAgd2lkdGg6IDE4cmVtO1xyXG4gICAgICAgICAgaGVpZ2h0OiAxOHJlbTtcclxuICAgICAgICAgIGJveC1zaGFkb3c6IDAuNXJlbSAwLjVyZW0gMHB4IDBweCB2YXIoLS1hY2NlbnQtY29sb3Itcik7XHJcbiAgICAgICAgICB0cmFuc2l0aW9uOiBib3gtc2hhZG93IDAuMTVzO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgLmgzLXRodW1iIHtcclxuICAgICAgICAgIGNvbG9yOiB2YXIoLS1mb250LWNvbG9yKTtcclxuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWFjY2VudC1jb2xvci1yLW9wYWNpdHkpO1xyXG4gICAgICAgICAgcGFkZGluZzogMC41cmVtO1xyXG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgdG9wOiAtMS43cmVtO1xyXG4gICAgICAgICAgbGVmdDogLTAuNXJlbTtcclxuICAgICAgICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC4xNXM7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAuZGVzaWduLXByb2plY3QtdGh1bWJuYWlsOmhvdmVyIC5oMy10aHVtYiB7XHJcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1hY2NlbnQtY29sb3ItZyk7XHJcbiAgICAgICAgICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuMTVzO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgLmRlc2lnbi1wcm9qZWN0LXRodW1ibmFpbDpob3ZlciBpbWcge1xyXG4gICAgICAgICAgYm94LXNoYWRvdzogMC40cmVtIDAuNHJlbSAwcHggMHB4IHZhcigtLWFjY2VudC1jb2xvci1nKTtcclxuICAgICAgICAgIHRyYW5zaXRpb246IGJveC1zaGFkb3cgMC4xNXM7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChvcmllbnRhdGlvbjogcG9ydHJhaXQpIHtcclxuICAgICAgICAgIC5kZXNpZ24tcHJvamVjdC10aHVtYm5haWwge1xyXG4gICAgICAgICAgICB3aWR0aDogOTAlO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgICAgICAgIG1pbi1oZWlnaHQ6IDVyZW07XHJcbiAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgLmRlc2lnbi1wcm9qZWN0LXRodW1ibmFpbCBpbWcge1xyXG4gICAgICAgICAgICB3aWR0aDogOTAlO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgICAgICAgIG1pbi1oZWlnaHQ6IDVyZW07XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEwMjRweCkge1xyXG4gICAgICAgICAgLmgzLXRodW1iIHtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAxLjNyZW07XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDcyNnB4KSB7XHJcbiAgICAgICAgICAuaDMtdGh1bWIge1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDEuMXJlbTtcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn1cclxuIl19 */\n/*@ sourceURL=D:\\\\Dropbox\\\\Creative Cloud Files\\\\_HI\\\\_Projects\\\\Next-Website\\\\components\\\\Projects\\\\DesignProjects.js */"));
+
+var tech = function tech(param) {
+  var techList = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      return techList.push(__jsx("li", {
+        key: index,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        },
+        __self: this
+      }, item));
+    });
+    return techList;
+  }
+};
+
+var links = function links(param) {
+  var linkList = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      return linkList.push(__jsx("a", {
+        key: index,
+        href: item[1],
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, item[0], __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      })));
+    });
+    return linkList;
+  }
+};
+
+var media = function media(param, load) {
+  var mediaContainer = [];
+
+  if (param) {
+    param.forEach(function (item, index) {
+      if (item[0] === "img") {
+        mediaContainer.push(__jsx("img", {
+          key: index,
+          src: item[1],
+          alt: item[2],
+          srcSet: item[3],
+          className: "project-img no-border",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 34
+          },
+          __self: this
+        }));
+      }
+
+      if (item[0] === "vid") {
+        switch (item[2]) {
+          case "mp4":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 48
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/mp4",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 54
+              },
+              __self: this
+            })));
+            break;
+
+          case "webm":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 60
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/webm",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 66
+              },
+              __self: this
+            })));
+            break;
+
+          case "ogg":
+            mediaContainer.push(__jsx("video", {
+              className: "project-vid no-border",
+              autoPlay: "true",
+              muted: "true",
+              loop: "true",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 72
+              },
+              __self: this
+            }, __jsx("source", {
+              key: index,
+              src: item[1],
+              type: "video/ogg",
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 78
+              },
+              __self: this
+            })));
+            break;
+
+          default:
+            break;
+        }
+      }
+    });
+    if (load) return __jsx("div", {
+      className: "media-container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 87
+      },
+      __self: this
+    }, mediaContainer);
+  }
+};
+
+function FrontendProjects(_ref) {
+  var projectTitle = _ref.projectTitle,
+      projectMedia = _ref.projectMedia,
+      projectLink = _ref.projectLink,
+      projectDate = _ref.projectDate,
+      projectDesc = _ref.projectDesc,
+      projectTech = _ref.projectTech;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      load = _useState[0],
+      setLoad = _useState[1];
+
+  if (projectMedia) {
+    return __jsx("div", {
+      className: "project-card no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 102
+      },
+      __self: this
+    }, __jsx("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 103
+      },
+      __self: this
+    }, projectTitle), __jsx("div", {
+      className: "no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 104
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 105
+      },
+      __self: this
+    }, __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106
+      },
+      __self: this
+    }, "Links"), links(projectLink), __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 108
+      },
+      __self: this
+    }, "Project Description"), __jsx("ul", {
+      className: "no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 109
+      },
+      __self: this
+    }, __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110
+      },
+      __self: this
+    }, projectDate), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 111
+      },
+      __self: this
+    }, projectDesc)), __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 113
+      },
+      __self: this
+    }, "Made With"), __jsx("ul", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114
+      },
+      __self: this
+    }, tech(projectTech))), __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 116
+      },
+      __self: this
+    }, __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }, "Media"), __jsx("button", {
+      className: "load-button",
+      onClick: function onClick() {
+        return setLoad(true);
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 118
+      },
+      __self: this
+    }, "Load Media", __jsx(_Icon_Icon__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      w: "1em",
+      h: "1em",
+      color: "var(--font-color)",
+      rotate: "rotate(270)",
+      loc: "left",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 120
+      },
+      __self: this
+    }), __jsx(_Icon_Icon__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      w: "1em",
+      h: "1em",
+      color: "var(--font-color)",
+      rotate: "rotate(90)",
+      loc: "right",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 127
+      },
+      __self: this
+    })), media(projectMedia, load))));
+  } else {
+    return __jsx("div", {
+      className: "project-card no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 142
+      },
+      __self: this
+    }, __jsx("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 143
+      },
+      __self: this
+    }, projectTitle), __jsx("div", {
+      className: "no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 144
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 145
+      },
+      __self: this
+    }, __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 146
+      },
+      __self: this
+    }, "Links"), links(projectLink), __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 148
+      },
+      __self: this
+    }, "Project Description"), __jsx("ul", {
+      className: "no-border",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 149
+      },
+      __self: this
+    }, __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 150
+      },
+      __self: this
+    }, projectDate), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151
+      },
+      __self: this
+    }, projectDesc)), __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153
+      },
+      __self: this
+    }, "Made With"), __jsx("ul", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 154
+      },
+      __self: this
+    }, tech(projectTech)))));
+  }
 }
 
 /***/ }),
@@ -5254,21 +5567,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js!./":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js!./":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/design", function() {
-      var mod = __webpack_require__(/*! ./pages/design.js */ "./pages/design.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/frontend", function() {
+      var mod = __webpack_require__(/*! ./pages/frontend.js */ "./pages/frontend.js")
       if(true) {
-        module.hot.accept(/*! ./pages/design.js */ "./pages/design.js", function() {
-          if(!next.router.components["/design"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/design.js */ "./pages/design.js")
-          next.router.update("/design", updatedPage)
+        module.hot.accept(/*! ./pages/frontend.js */ "./pages/frontend.js", function() {
+          if(!next.router.components["/frontend"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/frontend.js */ "./pages/frontend.js")
+          next.router.update("/frontend", updatedPage)
         })
       }
       return mod
@@ -11615,35 +11928,32 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/design.js":
-/*!*************************!*\
-  !*** ./pages/design.js ***!
-  \*************************/
+/***/ "./pages/frontend.js":
+/*!***************************!*\
+  !*** ./pages/frontend.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Design; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Frontend; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Container_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Container/Container */ "./components/Container/Container.js");
 /* harmony import */ var _components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Pagestyle/Pagestyle */ "./components/Pagestyle/Pagestyle.js");
-/* harmony import */ var _components_Projects_DesignProjects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Projects/DesignProjects */ "./components/Projects/DesignProjects.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\design.js";
+/* harmony import */ var _components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Projects/FrontendProjects */ "./components/Projects/FrontendProjects.js");
+var _jsxFileName = "D:\\Dropbox\\Creative Cloud Files\\_HI\\_Projects\\Next-Website\\pages\\frontend.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-function Design() {
+function Frontend() {
   return __jsx(_components_Container_Container__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
@@ -11651,126 +11961,97 @@ function Design() {
     tabIndex: "0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, __jsx("h1", {
     className: "h1-styled",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
-  }, "Design"), __jsx("div", {
-    className: "lone-child-wrap",
+  }, "Frontend"), __jsx("h2", {
+    className: "h2-styled",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, __jsx("h2", {
-    className: "h2-styled",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, "UX / UI"), __jsx("div", {
-    className: "project-card column-card no-border",
+  }, "Projects"), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "This Website",
+    projectLink: [["Github", "https://github.com/carlhernek/Next-website"]],
+    projectDate: "02/2020",
+    projectDesc: "Website built using Next.js. Built during an a11y module at Hyper Island so I have experimented a lot with accessibility in this version of the site.",
+    projectTech: ["Next.js", "React"],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    href: "/design/samplepage",
+  }), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "How to Sell your Design",
+    projectLink: [["Github", "https://github.com/carlhernek/How-To-Sell-Your-Design"], ["Live Demo", "https://how-to-sell-your-design.netlify.com/"]],
+    projectDate: "02/2020",
+    projectDesc: "Simple app built with React to understand functional components better. Randomizes words which are useful when describing form in design projects!",
+    projectTech: ["React"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 22
     },
     __self: this
-  }, __jsx("a", {
+  }), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "Might as Well",
+    projectLink: [["Live Demo", "https://might-as-well.netlify.com/"]],
+    projectDate: "01/2020",
+    projectDesc: "Group project at Hyper Island. Concept app built with React which tells you things you can do in the vicinity of a metro station if there are delays on your metro. Most of this project was mob-coded.",
+    projectTech: ["React", "Google Places API", "SL Platsuppslag API", "SL Realtidsinfo API"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 32
     },
     __self: this
-  }, __jsx(_components_Projects_DesignProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "SFD Mobile Web",
-    alt: "Picture of figma workspace",
-    src: "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png",
-    srcSet: ["https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    href: "/design/samplepage",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(_components_Projects_DesignProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "SFD Mobile Web",
-    alt: "Picture of figma workspace",
-    src: "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png",
-    srcSet: ["https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  })))), __jsx("h2", {
-    className: "h2-styled",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "CAD Showreel"), __jsx("h2", {
-    className: "h2-styled",
+  }), __jsx(_components_Projects_FrontendProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    projectTitle: "Pseudorandom",
+    projectLink: [["Github", "https://github.com/carlhernek/Pseudorandom"], ["Live Demo", "https://pseudorandom-carlhernek.netlify.com/"]],
+    projectDate: "10/2019",
+    projectDesc: "My very first project with Javascript, a small dungeoncrawler using randomly generated content and characters.",
+    projectTech: ["HTML", "CSS", "Javascript"],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }, "UID Portfolio"), __jsx("h2", {
+  }), __jsx("h2", {
     className: "h2-styled",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 77
     },
     __self: this
-  }, "On Design"), __jsx("p", {
+  }, "FED21"), __jsx("div", {
+    className: "lone-child-wrap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 78
     },
     __self: this
-  }, "I enjoy making beautiful things and to me that beauty can take many shapes, be it well structured code, a satisfying css animation or an aesthetically pleasing physical product."), __jsx("p", {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 79
     },
     __self: this
-  }, "I realised that similarly to when you create something physical when you have to be aware of the constraints of production, that same thing is true for when you create something digital. To a designer it is important that the resulting product, be it digital or physical, holds true to the intended design that was passed on to production or development."), __jsx("p", {
+  }, "This is the latest chapter of my life. I started the Frontend Developer program at Hyper Island in august 2019 and have since been hard at work learning the ways of web development, user experience and agile working environments."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 85
     },
     __self: this
-  }, "This will only happen if the designer has the knowledge to produce a design that is feasible and easily communicated.")), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "I started this journey because I found myself becoming gradually more interested in the technology side of things in my work. Almost everything today has a digital component to it and requires specific knowledge in regards to us as humans and technology.")), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 92
     },
     __self: this
   })));
@@ -11778,14 +12059,14 @@ function Design() {
 
 /***/ }),
 
-/***/ 3:
-/*!*********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js ***!
-  \*********************************************************************************************************************************************************************/
+/***/ 2:
+/*!*************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffrontend&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cfrontend.js!./");
 
 
 /***/ }),
@@ -11801,5 +12082,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=design.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=frontend.js.map
