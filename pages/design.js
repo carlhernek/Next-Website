@@ -2,6 +2,7 @@ import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
 import Footer from "../components/Footer/Footer";
 import DesignProjects from "../components/Projects/DesignProjects";
+import Link from "next/link";
 
 export default function Design() {
   return (
@@ -28,7 +29,21 @@ export default function Design() {
           </p>
           <h2 className="h2-styled">UX / UI</h2>
           <div className="project-card column-card no-border">
-            <DesignProjects />
+            <Link href="/design/samplepage">
+              <a>
+                <DesignProjects
+                  title="SFD Mobile Web"
+                  alt="Picture of figma workspace"
+                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png"
+                  srcSet={[
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"
+                  ]}
+                />
+              </a>
+            </Link>
+
             <DesignProjects />
           </div>
           <h2 className="h2-styled">CAD Showreel</h2>

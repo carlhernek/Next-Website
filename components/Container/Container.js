@@ -25,6 +25,7 @@ const Container = props => (
         --font-color-opacity: #f5f5f5d8;
         --font-color-opacity-alt: #4a4a4a8e;
         --accent-color-r: hsl(0, 93%, 73%);
+        --accent-color-r-opacity: hsla(0, 93%, 73%, 0.5);
         --accent-color-b: hsla(177, 100%, 50%, 0.2);
         --accent-color-o: hsla(39, 100%, 69%, 0.7);
         --accent-color-g: hsla(80, 77%, 67%, 0.2);
