@@ -173,6 +173,12 @@ export default function Pagestyle() {
           color: var(--font-color-inverted);
         }
 
+        @media only screen (min-width: 1024px) and (orientation: landscape) {
+          .project-banner {
+            height: 45vh;
+          }
+        }
+
         @media only screen and (orientation: portrait) {
           .project-img {
             object-fit: contain;
