@@ -173,7 +173,7 @@ export default function Pagestyle() {
           color: var(--font-color-inverted);
         }
 
-        @media only screen (min-width: 1024px) and (orientation: landscape) {
+        @media only screen and (min-width: 1024px) and (orientation: landscape) {
           .project-banner {
             height: 45vh;
           }
