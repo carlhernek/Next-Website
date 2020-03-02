@@ -147,7 +147,7 @@ const Container = props => (
       .container {
         display: flex;
         flex-direction: row;
-        height: 70vh;
+        height: 72vh;
         width: 1024px;
         overflow: hidden;
       }
@@ -202,6 +202,16 @@ const Container = props => (
       @media only screen and (min-width: 1280px) and (orientation: landscape) {
         :root {
           font-size: 1.7vh;
+        }
+      }
+
+      @media only screen and (min-width: 2048px) {
+        :root {
+          font-size: 1.6vh;
+        }
+
+        .container {
+          width: calc(800px + 35vw);
         }
       }
     `}</style>
