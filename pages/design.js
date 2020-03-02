@@ -11,30 +11,16 @@ export default function Design() {
         <div className="lone-child-wrap">
           <h2 className="h2-styled">UX / UI</h2>
           <div className="project-card column-card no-border">
-            <Link href="/design/samplepage">
+            <Link href="/design/sfdhyperisland">
               <a>
                 <DesignProjects
                   title="SFD Mobile Web"
                   alt="Picture of figma workspace"
-                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png"
+                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/SFD/FigmaWorkspace_zos3ck.png"
                   srcSet={[
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w",
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w",
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"
-                  ]}
-                />
-              </a>
-            </Link>
-            <Link href="/design/samplepage">
-              <a>
-                <DesignProjects
-                  title="SFD Mobile Web"
-                  alt="Picture of figma workspace"
-                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png"
-                  srcSet={[
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/logi_zqrfef.png 256w",
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/logi_zqrfef.png 512w",
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/logi_zqrfef.png 1024w"
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img//SFD/FigmaWorkspace_zos3ck.png 256w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/SFD/FigmaWorkspace_zos3ck.png 512w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/SFD/FigmaWorkspace_zos3ck.png 1024w"
                   ]}
                 />
               </a>

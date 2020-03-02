@@ -103,8 +103,9 @@ export default function Pagestyle() {
 
         .project-return {
           display: table;
+          float: right;
           padding: 0.5rem;
-          margin: 0.7rem;
+          margin: 2rem;
           background-color: var(--accent-color-b);
           color: var(--font-color);
         }
@@ -134,6 +135,20 @@ export default function Pagestyle() {
 
         .hide {
           display: none;
+        }
+
+        .inline-img {
+          object-fit: contain;
+          height: 20rem;
+          width: auto;
+          margin: 0 0.75rem 0.75rem 0;
+        }
+
+        .inline-img-big {
+          object-fit: contain;
+          height: 24rem;
+          width: auto;
+          margin: 0 0.75rem 0.75rem 0;
         }
 
         .load-button {
@@ -186,15 +201,29 @@ export default function Pagestyle() {
           .column-card {
             flex-direction: column;
           }
+
+          .inline-img {
+            height: auto;
+            width: 100%;
+          }
+
+          .inline-img-big {
+            height: auto;
+            width: 100%;
+          }
         }
 
         @media only screen and (max-width: 1024px) {
-          h1 {
-            margin: 1.5rem 0 0 0;
+          .project-heading {
+            margin: 1rem 0 0 0;
           }
         }
 
         @media only screen and (max-width: 756px) {
+          .project-heading {
+            font-size: 2rem;
+          }
+
           h2 {
             font-size: 1.5rem;
           }
