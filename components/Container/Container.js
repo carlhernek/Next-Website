@@ -205,13 +205,13 @@ const Container = props => (
         }
       }
 
-      @media only screen and (min-width: 2048px) {
+      @media only screen and (min-width: 2160px) {
         :root {
           font-size: 1.6vh;
         }
 
         .container {
-          width: calc(800px + 35vw);
+          width: calc(500px + 35vw);
         }
       }
     `}</style>
