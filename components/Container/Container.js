@@ -93,7 +93,7 @@ const Container = props => (
         font-family: "Montserrat";
         font-weight: 600;
         display: table;
-        margin: 0.5rem 0 0.3rem 0;
+        margin: 1.2rem 0 0.3rem 0;
       }
 
       h4 {

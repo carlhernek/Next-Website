@@ -10,24 +10,54 @@ export default function Design() {
         <h1 className="h1-styled">Design</h1>
         <div className="lone-child-wrap">
           <h2 className="h2-styled">UX / UI</h2>
-          <div className="project-card column-card no-border">
+          <div className="column-card no-border">
             <Link href="/design/sfdhyperisland">
               <a>
                 <DesignProjects
                   title="SFD Mobile Web"
                   alt="Picture of figma workspace"
-                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/SFD/FigmaWorkspace_zos3ck.png"
+                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/SFD/SFDBanner_wkacuy.png"
                   srcSet={[
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img//SFD/FigmaWorkspace_zos3ck.png 256w",
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/SFD/FigmaWorkspace_zos3ck.png 512w",
-                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/SFD/FigmaWorkspace_zos3ck.png 1024w"
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/SFD/SFDBanner_wkacuy.png 256w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/SFD/SFDBanner_wkacuy.png 512w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/SFD/SFDBanner_wkacuy.png 1024w"
                   ]}
                 />
               </a>
             </Link>
           </div>
-          <h2 className="h2-styled">CAD Showreel</h2>
-          <h2 className="h2-styled">UID Portfolio</h2>
+          <h2 className="h2-styled">Industrial Design</h2>
+          <div className="column-card no-border">
+            <a
+              href="https://issuu.com/carlhernek/docs/portfolio180730issuuweb"
+              target="_blank"
+            >
+              <DesignProjects
+                title="UID Portfolio"
+                alt="Picture of a page from my industrial design degree portfolio"
+                src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg"
+                srcSet={[
+                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 256w",
+                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 512w",
+                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 1024w"
+                ]}
+              />
+            </a>
+            <Link href="/design/cadreel">
+              <a>
+                <DesignProjects
+                  title="Cad Showreel"
+                  alt="Picture of a computer made product rendering"
+                  src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/CAD/7_qepbsd.png"
+                  srcSet={[
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/CAD/7_qepbsd.png 256w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/CAD/7_qepbsd.png 512w",
+                    "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/CAD/7_qepbsd.png 1024w"
+                  ]}
+                />
+              </a>
+            </Link>
+          </div>
           <h2 className="h2-styled">On Design</h2>
           <p>
             I enjoy making beautiful things and to me that beauty can take many
