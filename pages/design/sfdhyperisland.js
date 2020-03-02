@@ -33,8 +33,8 @@ export default function sfdhyperisland() {
             testing.
           </p>
           <ul className="no-border">
-            <li>1. Difficult to locate information.</li>
-            <li>2. Difficult to swap language.</li>
+            <li>1. Difficult to locate information</li>
+            <li>2. Difficult to swap language</li>
             <li>3. Easy to find promoted events</li>
             <li>4. Impersonal feeling</li>
           </ul>
@@ -42,9 +42,9 @@ export default function sfdhyperisland() {
           <ul className="no-border">
             <li>
               1. Structure & Relevancy of content based on type of visitor and
-              platform.
+              platform
             </li>
-            <li>2. Mobile usability & accessibility.</li>
+            <li>2. Mobile usability & accessibility</li>
             <li>3. Buyer to buyer community</li>
             <li>4. The Inspiration experience on SFD Web</li>
           </ul>

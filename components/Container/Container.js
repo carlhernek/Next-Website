@@ -198,6 +198,12 @@ const Container = props => (
           font-size: 2vw;
         }
       }
+
+      @media only screen and (min-width: 1280px) and (orientation: landscape) {
+        :root {
+          font-size: 1.7vh;
+        }
+      }
     `}</style>
   </div>
 );
