@@ -35,11 +35,11 @@ export default function Design() {
               <DesignProjects
                 title="UID Portfolio"
                 alt="Picture of a page from my industrial design degree portfolio"
-                src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg"
+                src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg"
                 srcSet={[
-                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 256w",
-                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 512w",
-                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 1024w"
+                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg256w",
+                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 512w",
+                  "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 1024w"
                 ]}
               />
             </a>
