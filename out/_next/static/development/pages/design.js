@@ -11730,8 +11730,8 @@ function Design() {
   }, __jsx(_components_Projects_DesignProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "UID Portfolio",
     alt: "Picture of a page from my industrial design degree portfolio",
-    src: "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg",
-    srcSet: ["https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 256w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 512w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/Industrial Design/Portfolio_ydswc5.jpg 1024w"],
+    src: "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg",
+    srcSet: ["https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg256w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 512w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 1024w"],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -11796,7 +11796,7 @@ function Design() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js ***!
   \*********************************************************************************************************************************************************************/
@@ -11819,5 +11819,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=design.js.map
