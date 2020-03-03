@@ -31,6 +31,7 @@ export default function Design() {
             <a
               href="https://issuu.com/carlhernek/docs/portfolio180730issuuweb"
               target="_blank"
+              rel="noopener"
             >
               <DesignProjects
                 title="UID Portfolio"
