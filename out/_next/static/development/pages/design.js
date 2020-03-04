@@ -11722,6 +11722,7 @@ function Design() {
   }, __jsx("a", {
     href: "https://issuu.com/carlhernek/docs/portfolio180730issuuweb",
     target: "_blank",
+    rel: "noopener",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
@@ -11731,23 +11732,23 @@ function Design() {
     title: "UID Portfolio",
     alt: "Picture of a page from my industrial design degree portfolio",
     src: "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg",
-    srcSet: ["https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg256w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 512w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 1024w"],
+    srcSet: ["https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 256w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 512w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/ID/Portfolio_ydswc5_jvx0a9.jpg 1024w"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   })), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     href: "/design/cadreel",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: this
   }, __jsx(_components_Projects_DesignProjects__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -11757,38 +11758,38 @@ function Design() {
     srcSet: ["https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Website/Img/CAD/7_qepbsd.png 256w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/CAD/7_qepbsd.png 512w", "https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/CAD/7_qepbsd.png 1024w"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 49
     },
     __self: this
   })))), __jsx("h2", {
     className: "h2-styled",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, "On Design"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, "I enjoy making beautiful things and to me that beauty can take many shapes, be it well structured code, a satisfying css animation or an aesthetically pleasing physical product."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 68
     },
     __self: this
   }, "I realised that similarly to when you create something physical when you have to be aware of the constraints of production, that same thing is true for when you create something digital. To a designer it is important that the resulting product, be it digital or physical, holds true to the intended design that was passed on to production or development."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 76
     },
     __self: this
   }, "This will only happen if the designer has the knowledge to produce a design that is feasible and easily communicated.")), __jsx(_components_Pagestyle_Pagestyle__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 81
     },
     __self: this
   })));
@@ -11796,7 +11797,7 @@ function Design() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fdesign&absolutePagePath=D%3A%5CDropbox%5CCreative%20Cloud%20Files%5C_HI%5C_Projects%5CNext-Website%5Cpages%5Cdesign.js ***!
   \*********************************************************************************************************************************************************************/
@@ -11819,5 +11820,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=design.js.map
