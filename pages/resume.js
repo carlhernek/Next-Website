@@ -11,7 +11,7 @@ export default function Resume() {
           <ul className="no-border">
             <li>+46 (0)70 66 55 078</li>
             <li>
-              <a href="mailto:hello@carlhernek.se">hello@carlhernek.se</a>
+              <a href="mailto:carl@hernekdesign.se">carl@hernekdesign.se</a>
             </li>
             <li>
               <a href="https://github.com/carlhernek" target="_blank">
