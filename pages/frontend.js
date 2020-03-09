@@ -75,7 +75,7 @@ export default function Frontend() {
           projectTech={["HTML", "CSS", "Javascript"]}
         /> */}
         <h2 className="h2-styled">FED21</h2>
-        <div className="lone-child-wrap">
+        <div className="lone-child-wrap last-child">
           <p>
             This is the latest chapter of my life. I started the Frontend
             Developer program at Hyper Island in august 2019 and have since been

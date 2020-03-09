@@ -86,7 +86,7 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="project-card no-border">
+        <div className="project-card no-border last-child">
           <h3>Education</h3>
           <div className="column-card no-border">
             <ul className="no-border">

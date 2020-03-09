@@ -223,6 +223,10 @@ export default function Pagestyle() {
           .project-heading {
             margin: 1rem 0 0 0;
           }
+
+          .last-child {
+            margin: 0 0 10rem 0;
+          }
         }
 
         @media only screen and (max-width: 756px) {

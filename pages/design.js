@@ -8,7 +8,7 @@ export default function Design() {
     <Container>
       <div className="page" tabIndex="0">
         <h1 className="h1-styled">Design</h1>
-        <div className="lone-child-wrap">
+        <div className="lone-child-wrap last-child">
           <h2 className="h2-styled">UX / UI</h2>
           <div className="column-card no-border">
             <Link href="/design/sfdhyperisland">

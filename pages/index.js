@@ -6,7 +6,7 @@ export default function Index() {
     <Container>
       <div className="page" tabIndex="0">
         <h1 className="h1-styled">Carl Hernek</h1>
-        <div className="lone-child-wrap">
+        <div className="lone-child-wrap last-child">
           <h4>
             Industrial Designer BFA <br />
             Aspiring Frontend Developer
