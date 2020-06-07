@@ -1,7 +1,7 @@
 import Menu from "../Menu/Menu";
 import Head from "next/head";
 
-const Container = props => (
+const Container = (props) => (
   <div className="container">
     <Head>
       <title>Carl Hernek - Frontend Dev & Designer</title>
@@ -174,6 +174,10 @@ const Container = props => (
 
       .relative {
         position: relative;
+      }
+
+      .italic {
+        font-style: italic;
       }
 
       :focus {

@@ -5,7 +5,7 @@ import Icon from "../Icon/Icon";
 const Menu = () => {
   const [toggle, setToggle] = useState(false);
 
-  const divClass = e => {
+  const divClass = (e) => {
     if (!e) {
       return "link-container-toggled";
     } else {
@@ -13,21 +13,21 @@ const Menu = () => {
     }
   };
 
-  const menuStyle = e => {
+  const menuStyle = (e) => {
     if (!e) {
       return {
         left: "100vw",
-        transition: "left .5s"
+        transition: "left .5s",
       };
     } else {
       return {
         left: "-5vw",
-        transition: "left .5s"
+        transition: "left .5s",
       };
     }
   };
 
-  const menuToggle = e => {
+  const menuToggle = (e) => {
     if (!e) {
       setToggle(true);
     } else setToggle(false);
