@@ -12,8 +12,10 @@ export default function Index() {
             Aspiring Frontend Developer
           </h4>
           <p>
-            I am currently looking for Frontend and/or UX/UI internships for the{" "}
-            <b>Autumn of 2020</b> or <b>Spring 2021!</b>
+            Currently a Developer Intern at{" "}
+            <a target="_blank" href="https://www.thirdact.se/">
+              Third Act.
+            </a>
           </p>
           <h2 className="h2-styled">About me</h2>
           <p>
