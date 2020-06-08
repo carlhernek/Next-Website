@@ -33,15 +33,67 @@ export default function Assessment() {
           <div className="project-card no-border">
             <p>
               To me effective front end code is not only code that produces a
-              functional and aesthetically pleasing website.
+              functional and aesthetically pleasing website. I always strive to
+              write code that fills my personal criteria derived from standards
+              and good praxis:
             </p>
+            <ul>
+              <li>1. Use of Semantic & Accessible HTML.</li>
+              <li>
+                2. Code that is easy to communicate to fellow developers in a
+                team.
+              </li>
+              <li>
+                3. Code that is adaptable and scalable with as few "hacks" as
+                possible.
+              </li>
+            </ul>
           </div>
           <h2 className="h2-styled">K7</h2>
-          <p className="italic">- Create effective front end code.</p>
+          <p className="italic">
+            - Responsive web design and adaption of graphics to web pages.
+          </p>
+          <div className="project-card no-border">
+            <p>
+              I have applied as many responsive principles as I could on this
+              very website. It is built to scale well to every type of device
+              and browser.
+            </p>
+            <p>
+              The correct elements should be focusable with screen-readers for
+              visually impaired on smartphone, tablets and computers.
+            </p>
+            <p>
+              Images on this website are served via a CDN to provide correct
+              compression and image sizes dependent on bandwith and screen
+              sizes.
+              <a
+                href="https://carlhernek.se/design/sfdhyperisland"
+                target="_blank"
+              >
+                This
+              </a>{" "}
+              project page utilize this on both static and moving graphics.
+            </p>
+            <p>
+              Finally the website is built in Next.js, which means a server-side
+              rendered HTML will be served without unecessary files being served
+              to the user. This reduces bandwidth which is optimal for mobile
+              networks!
+            </p>
+          </div>
           <h2 className="h2-styled">S3</h2>
-          <p className="italic">- Create effective front end code.</p>
+          <p className="italic">
+            - Creating solutions for composite problems in digital
+            communication, service and product development requires an
+            understanding and dimension of several different aspects such as a
+            customer's business, user behavior, technical possibilities and
+            limitations.
+          </p>
+          {/* SFD */}
           <h2 className="h2-styled">S4</h2>
           <p className="italic">- Create effective front end code.</p>
+          {/*  */}
           <h2 className="h2-styled">S5</h2>
           <p className="italic">- Create effective front end code.</p>
           <h2 className="h2-styled">S6</h2>
