@@ -21,7 +21,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/design/sfdhyperisland": [
+    "/frontend": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
