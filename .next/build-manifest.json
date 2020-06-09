@@ -1,37 +1,77 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_d6a88dbe3071bd165157.js",
-    "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/development/_buildManifest.js"
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/runtime/main-e4726590fb34260a86ed.js",
+      "static/ouL6Oc1EaP_fxvFAqiM3n/_buildManifest.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills.js",
-      "static/runtime/polyfills.js.map"
+      "static/runtime/polyfills-8a2270019535ee730989.js"
     ],
     "/assessment": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
+    ],
+    "/design": [
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
+    ],
+    "/design/cadreel": [
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
+    ],
+    "/design/sfdhyperisland": [
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
     ],
     "/frontend": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
+    ],
+    "/resume": [
+      "static/runtime/webpack-91b117697e716c22a78b.js",
+      "static/chunks/framework.94bc9fd9a7de53a90996.js",
+      "static/chunks/commons.6b5b42654657d9aebcbb.js",
+      "static/chunks/325c769299aacab6c011cea9b54cd7e078b20a16.6f00f0a6344f0e7931b4.js",
+      "static/runtime/main-e4726590fb34260a86ed.js"
     ]
   }
 }

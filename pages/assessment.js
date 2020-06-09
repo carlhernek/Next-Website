@@ -11,9 +11,9 @@ export default function Assessment() {
           <div className="project-card no-border">
             <h4>Welcome!</h4>
             <p>
-              Hopefully it was not too troublesome to navigate to an external
-              website for this assessment but I was curious to see if I could
-              pull it off "blog-post" style.
+              Hopefully it was alright to navigate to an external website for
+              this assessment but I was curious to see if I could pull it off
+              "blog-post" style.
             </p>
             <p>
               Other than being the platform for this particular assessment this
@@ -25,7 +25,7 @@ export default function Assessment() {
             <p>
               Should you dear assessor, also be a developer and/or curious about
               the code for this or any of the projects below please look for the
-              project descriptioin in the frontend section of this website or
+              project description in the frontend section of this website or
               find it on my{" "}
               <a target="_blank" href="https://github.com/carlhernek">
                 Github.
@@ -33,10 +33,10 @@ export default function Assessment() {
             </p>
           </div>
           <h2 className="h2-styled">K6</h2>
-          <p className="italic">- Create effective front end code.</p>
+          <p className="italic">- Create effective frontend code.</p>
           <div className="project-card no-border">
             <p>
-              To me effective front end code is not only code that produces a
+              To me effective frontend code is not only code that produces a
               functional and aesthetically pleasing website. I always strive to
               write code that fills my personal criteria derived from standards
               and good praxis:
@@ -64,7 +64,7 @@ export default function Assessment() {
           <div className="project-card no-border">
             <p>
               I have applied as many responsive principles as I could on this
-              very website. It is built to scale well to every type of device
+              very website. It is built to scale well on every type of device
               and browser.
             </p>
             <p>
@@ -110,7 +110,7 @@ export default function Assessment() {
               >
                 here.
               </a>{" "}
-              Note that the mobile versioin of the concept is the most complete.
+              Note that the mobile version of the concept is the most complete.
             </p>
             <p>
               The customer was a large organisation wanting to give their users
@@ -132,7 +132,33 @@ export default function Assessment() {
             student to handle complex challenges at this level.
           </p>
           <div className="project-card no-border">
-            <p></p>
+            <p>
+              Complex challenges require us as developers to break it down into
+              manageable pieces to create feasible project structures and agile
+              development backlogs.
+            </p>
+            <p>
+              But breaking it down is also only half the work, you need to be
+              able to communicate it within the development teams as well as
+              cross disciplines.
+            </p>
+            <p>
+              Throughout the semester I have been a part of different solutions
+              to do this, most being through some sort of{" "}
+              <a
+                href="https://drive.google.com/file/d/1g-ilsONmd5MCg_q2hVqCGmL6cv5_9T8R/view?usp=sharing"
+                target="_blank"
+              >
+                flowchart
+              </a>{" "}
+              or feature map like the one presented later for C3 & C4.
+            </p>
+            <p>
+              I feel that the Hyper toolbox should get an honourable mention for
+              dealing with challenges on a people level, which means we're
+              equipped to deal with those as well as technical challenges,
+              ultimately reducing points of friction in development.
+            </p>
           </div>
           <h2 className="h2-styled">S5</h2>
           <p className="italic">
@@ -146,15 +172,17 @@ export default function Assessment() {
               This very website is the perfect example of how I applied this
               during this semester. As stated in the intro, this website uses a
               technology called Next.js and at the time of making this we had no
-              resources from Hyper to teach us how to use Next.
+              resources from Hyper to teach us how to use Next, though we did
+              get a course later on in the semester.
             </p>
             <p>
               So during the a11y module earlier this year I wondered if I could
               apply everything we learned in the module at school and apply it
-              to a new technology I had never used before.
+              to a new technology I had never used before and needed to
+              self-learn.
             </p>
             <p>
-              I was already curious on SSR (server-side rendering) and had
+              I was already curious of SSR (server-side rendering) and had
               researched some of the big players in the field, Next, Gatsby etc.
               The reason I went with Next was because Gatsby seemed to have
               better inherent support for accessibility and thus Next should
@@ -177,9 +205,9 @@ export default function Assessment() {
           </p>
           <div className="project-card no-border">
             <p>
-              Again, in the very same resilience project previously mentioned we
-              had the necessity to communicate within the team as well as to
-              communicate with the product owners during development.{" "}
+              Again, in the very same resilience project previously mentioned in
+              S3 we had the necessity to communicate within the team as well as
+              to communicate with the product owners during development.{" "}
             </p>
             <p>
               Since we went full circle with doing the UX, Design and
@@ -221,6 +249,11 @@ export default function Assessment() {
               these could be used in new and innovative purposes.{" "}
             </p>
             <p>
+              In this project we divided the responsibilities so that each
+              person were individually responsible for their own segment, mine
+              being the development segment.
+            </p>
+            <p>
               Our application concept accepts the input of any metro station in
               the Stockholm area to recieve the current delays at that station.
               The app then provides the user suggestions of what the user could
@@ -232,7 +265,7 @@ export default function Assessment() {
               and not the metro.
             </p>
             <img
-              className="inline-img-big"
+              className="project-banner"
               alt="Analog feature mapping session"
               src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/assessment/IMG_20200122_112746_xripyr.jpg"
               srcSet="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Img/assessment/IMG_20200122_112746_xripyr.jpg 256w,
@@ -245,12 +278,27 @@ export default function Assessment() {
               mapping session in order to create a backlog for the development
               part of this project.
             </p>
-            <p>
-              This feature map laid the groundwork for the backlog from which
-              individual and group objectives were derived.{" "}
-            </p>
+            <div className="column-card no border">
+              <img
+                className="inline-img"
+                alt="Notion planning gif"
+                src="https://res.cloudinary.com/carlhernek/image/upload/fl_lossy/v1582198505/Website/Img/assessment/notion_ds_teukpk.gif"
+              ></img>
+              <div className="no-border">
+                <p>
+                  This feature map laid the groundwork for the backlog from
+                  which individual and group objectives were derived, as shown
+                  in this notion gif.
+                </p>
+                <p>
+                  Notion is a very useful tool for hosting calendars, links,
+                  notes, kanban backlogs and other team communication
+                  necessities.
+                </p>
+              </div>
+            </div>
             <img
-              className="inline-img-big"
+              className="project-banner"
               alt="Collaborative coding session, mob programming"
               src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/assessment/IMG_5096_do8nus.heic"
               srcSet="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Img/assessment/IMG_5096_do8nus.heic 256w,
@@ -258,7 +306,7 @@ export default function Assessment() {
           https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/assessment/IMG_5096_do8nus.heic 1024w"
             ></img>
             <img
-              className="inline-img-big"
+              className="project-banner"
               alt="Solo programming in group"
               src="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_512/v1582198505/Website/Img/assessment/IMG_0077_zzw6fu.jpg"
               srcSet="https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_256/v1582198505/Img/assessment/IMG_0077_zzw6fu.jpg 256w,
@@ -266,11 +314,11 @@ export default function Assessment() {
           https://res.cloudinary.com/carlhernek/image/upload/f_auto,q_auto,w_1024/v1582198505/Website/Img/assessment/IMG_0077_zzw6fu.jpg 1024w"
             ></img>
             <p>
-              The two images you just saw show how we dynamically changed the
+              The remaining two images above show how we dynamically changed the
               development setting throughout the project.
             </p>
             <p>
-              The first picture show me leading a discussion during a mob
+              The first picture shows me leading a discussion during a mob
               programming session. A type of programming where one person writes
               the code and the other members of the group discuss and decide
               what is to be written.
@@ -305,6 +353,7 @@ export default function Assessment() {
               </div>
             </div>
           </div>
+          <h2 className="h2-styled">Thank you!</h2>
         </div>
         <Pagestyle />
       </div>
