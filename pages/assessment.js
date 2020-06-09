@@ -1,6 +1,5 @@
 import Container from "../components/Container/Container";
 import Pagestyle from "../components/Pagestyle/Pagestyle";
-import Link from "next/link";
 
 export default function Assessment() {
   return (
@@ -14,7 +13,7 @@ export default function Assessment() {
             <p>
               Hopefully it was not too troublesome to navigate to an external
               website for this assessment but I was curious to see if I could
-              pull off a "blog-post" like assessment.
+              pull it off "blog-post" style.
             </p>
             <p>
               Other than being the platform for this particular assessment this
@@ -23,10 +22,15 @@ export default function Assessment() {
               I built it to be easily expanded upon I might just as well
               temporarily expand it to host my assessment.
             </p>
-            <p></p>
-            <Link href="/frontend">
-              <a>Frontend</a>
-            </Link>
+            <p>
+              Should you dear assessor, also be a developer and/or curious about
+              the code for this or any of the projects below please look for the
+              project descriptioin in the frontend section of this website or
+              find it on my{" "}
+              <a target="_blank" href="https://github.com/carlhernek">
+                Github.
+              </a>
+            </p>
           </div>
           <h2 className="h2-styled">K6</h2>
           <p className="italic">- Create effective front end code.</p>
@@ -46,6 +50,10 @@ export default function Assessment() {
               <li>
                 3. Code that is adaptable and scalable with as few "hacks" as
                 possible.
+              </li>
+              <li>
+                4. Responsible use of dependencies with support and security in
+                mind.
               </li>
             </ul>
           </div>
@@ -73,7 +81,8 @@ export default function Assessment() {
               >
                 This
               </a>{" "}
-              project page utilize this on both static and moving graphics.
+              project page utilize this on both static and moving graphics. As
+              well as the ones included for C3 and C4.
             </p>
             <p>
               Finally the website is built in Next.js, which means a server-side
